@@ -2,7 +2,9 @@
 title: "README_Adela"
 author: "Adela Sobotkova"
 date: "30/07/2020"
-output: html_document
+output: 
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
@@ -19,7 +21,7 @@ This is an important data set because the 'US government has no comprehensive re
 
 
 ## Acknowledgments
-This repo extends Ben Marwick's work from 2017/2018 by using webscraping tools of 2020 and by updating with data with records from 2019 and 2020.
+This repo extends Ben Marwick's work from 2018 in [KilledbyPolice](https://github.com/benmarwick/killedbypolice) by using webscraping tools of 2020 and by updating with data with records from 2019 and 2020.
 
 ## How to use
 Start with

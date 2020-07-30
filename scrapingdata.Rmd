@@ -104,25 +104,22 @@ for (year in 2013:2020){  # here we create a loop to iterate over the years
 	}
 head(mastertable,2)
 tail(mastertable)
-
-# scrape the website
-url_html <- read_html(url)
-
 ```
 
-## Revert from factor
+The dataset is currently a matrix, which is not super convenient, so let's cast it to tibble and then clean it up
+
+```{r}
+mastertable <- as_tibble(mastertable)
+```
+
+
+## Revert Age from factor and label Method column
 
 
 ```{r}
-data <- data %>% 
-	select(-Date) %>% 
-	mutate(age = as.numeric(Age), source = as.character(Source)) %>% 
-	select(-c(Source, Age)) %>% 
-	rename(Age=age,Source=source, Method="*")
-	
-	
-
-	
+data <- mastertable %>% 
+	mutate(Age = as.numeric(Age)) %>% 
+	rename(Method="*") 
 ```
 
 ## Cleanup the dates with lubridate package and grepl()
@@ -130,33 +127,37 @@ data <- data %>%
 First, lets look how well structured our Date column is
 
 ```{r}
-
 mastertable$Date[c(70:80, 160:170)]
 ```
-
+Clearly there are inter-annual differences in how the date was formatted.
 
 ```{r}
 library(lubridate)
 
-data <- as_tibble(mastertable)
 data <- data %>% 
-	mutate(NewDate =
+	mutate(Date =
 			case_when(
 				grepl("201[34]",Date) ~ mdy(Date),
 				!grepl("201[34]",Date)~ ymd(Date)))
 				
 data <- data %>% 
-	mutate(Year = year(NewDate) )
+	mutate(Year = year(Date))
 
 tail(data$Year)
-class(data$NewDate)
-length(which(is.na(data$NewDate)))
+class(data$Date)
+length(which(is.na(data$Date)))
+```
+
+
+Now that the data looks half decent, we can export it to a file
+```{r}
+write.csv(data,"data/policekillings.csv")
 ```
 
 
 ## Analyze!
 
-str(data)
+The most common age to be killed by police is in the late twenties and early thirties, and this has not changed much over time.
 ```{r}
 library(ggplot2)
 library(ggridges)
@@ -178,7 +179,7 @@ data %>%
   theme(axis.title = element_text(size = 14))
 ```
 
-
+We can see, however, that with time the age is centering more around 30 rather than 20. 
 
 
 Of the three ethnic groups that make up most of the deaths, Black and Latino people tend to be younger than White people when they are killed by police. 
