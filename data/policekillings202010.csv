@@ -841,7 +841,7 @@
 "840",2015-09-05,"La'vante Trevon Biggs",21,"M","B","NC","T","wncn.com, abc11.com",2015
 "841",2015-09-05,"Luis Wenceslao",32,"M","H","CA","B","cbslocal.com, ktla.com, dailybulletin.com",2015
 "842",2015-09-05,"Angelo Delano Perry",35,"M","B","VA","G","wavy.com, wtkr.com",2015
-"843",2015-09-05,"India Kager",28,"F","B","VA","N","wavy.com, hamptonroads.com",2015
+"843",2015-09-05,"India Kager",27,"F","B","VA","N","wavy.com, hamptonroads.com, pilotonline.com",2015
 "844",2015-09-06,"Carlos Yero",59,"M","H","FL","G","miamiherald.com, wsvn.com",2015
 "845",2015-09-06,"Mohamed Ibrahim",28,"M","B","LA","G","fox8live.com, ktbs.com",2015
 "846",2015-09-06,"William Verrett",45,"M","W","NM","G","kob.com, everythinglubbock.com",2015
@@ -1154,7 +1154,7 @@
 "1153",2015-12-27,"Sean Mould",34,"M","W","AZ","K","azcentral.com, fox10phoenix.com, phoenixnewtimes.com",2015
 "1154",2015-12-27,"Gayneaux Paul Trahan",52,"M","W","LA","U","katc.com",2015
 "1155",2015-12-28,"Corey Jason Achstein",28,"M","W","VA","T","wavy.com, wtkr.com",2015
-"1156",2015-12-29,"Siolosega Velega-Nuufolau",50,"F","O","CA","K","fresnobee.com",2015
+"1156",2015-12-29,"Siolosega Velega-Nuufolau",50,"F","","CA","K","fresnobee.com",2015
 "1157",2015-12-29,"Tien Hua",NA,"M","A","CA","O","nbclosangeles.com, abc7.com",2015
 "1158",2015-12-30,"Fred Perez",55,"M","H","CA","K","abc30.com, yourcentralvalley.com",2015
 "1159",2015-12-30,"John Randell Veach",39,"M","","WY","U","rawlinstimes.com",2015
@@ -1553,7 +1553,7 @@
 "1552",2016-05-26,"An unidentified person",NA,"M","","TX","G","",2016
 "1553",2016-05-26,"Devonte Gates",21,"M","B","IL","U","",2016
 "1554",2016-05-26,"Fernando Castro",19,"M","H","CA","G","",2016
-"1555",2016-05-26,"Tonnia Reshelle Jarvis",48,"F","","FL","K","",2016
+"1555",2016-05-26,"Tonnia Reshelle Jarvis",48,"F","W","FL","K","",2016
 "1556",2016-05-26,"Angel Daniel Navarro",25,"M","H","NM","G","",2016
 "1557",2016-05-27,"Terry Edwards",59,"M","W","IN","G","",2016
 "1558",2016-05-28,"Dennis Hudson",50,"M","B","AL","G","",2016
@@ -2611,7 +2611,7 @@
 "2610",2017-06-29,"Marco Cardoza",41,"M","H","CA","T","",2017
 "2611",2017-06-29,"Joel Gatu Muturi",23,"M","B","GA","","",2017
 "2612",2017-06-29,"Jose Guillermo Flores Colon",37,"M","H","FL","O","",2017
-"2613",2017-06-30,"An unidentified person",NA,"F","","CO","G","",2017
+"2613",2017-06-30,"Stephanie Lopez",32,"F","","CO","G","",2017
 "2614",2017-06-30,"Chet Knuppel",23,"M","W","CO","N","",2017
 "2615",2017-06-30,"Brett Rodriguez",33,"M","H","CO","G","",2017
 "2616",2017-07-01,"Patrick Sanchez",23,"M","H","AZ","G","",2017
@@ -3041,7 +3041,7 @@
 "3040",2017-12-06,"Robert Page",71,"M","","FL","G","",2017
 "3041",2017-12-06,"Scott Addison",49,"M","W","WY","G","",2017
 "3042",2017-12-07,"Jesse Cole Shuping",35,"M","W","WI","G","",2017
-"3043",2017-12-07,"Kyler Grabbingbear",19,"M","N","CO","U","",2017
+"3043",2017-12-07,"Kyler Grabbingbear",19,"M","N","CO","N","9news.com, westword.com",2017
 "3044",2017-12-07,"John Souder",40,"M","W","PA","G","",2017
 "3045",2017-12-07,"Frederick Douglas Wilburn",34,"M","B","AZ","","",2017
 "3046",2017-12-08,"Vernchoy Saechao",22,"M","A","CA","G","",2017
@@ -3053,7 +3053,7 @@
 "3052",2017-12-10,"Frank Lopez",48,"M","","CA","K","",2017
 "3053",2017-12-11,"An unidentified person",NA,"M","","WA","G","",2017
 "3054",2017-12-11,"Stacy Micheletti",51,"M","W","MT","O","",2017
-"3055",2017-12-12,"Marcia Metzger Aiken",50,"F","W","GA","G","fox28media.com",2017
+"3055",2017-12-12,"Marcia Metzger Aiken",50,"F","W","GA","U","fox28media.com",2017
 "3056",2017-12-13,"Jeremy Patscheck",NA,"M","","CO","V","",2017
 "3057",2017-12-13,"An unidentified person",NA,"M","","AL","O","",2017
 "3058",2017-12-14,"Zoe Dowdell",20,"M","B","CT","","",2017
@@ -3483,7 +3483,7 @@
 "3482",2018-04-26,"Anthony Lamar Carter",22,"M","","TX","K","dallasnews.com, timesrecordnews.com, kswo.com",2018
 "3483",2018-04-26,"Myra Lisa Micalizio",56,"F","W","CA","V","actionnewsnow.com, sacbee.com",2018
 "3484",2018-04-26,"Brian Scott Tietze",35,"M","","MI","G","macombdaily.com, radio.com",2018
-"3485",2018-04-28,"Shukri Ali Said",36,"F","A","GA","K","ajc.com, ajc.com",2018
+"3485",2018-04-28,"Shukri Ali Said",36,"F","B","GA","K","ajc.com, ajc.com",2018
 "3486",2018-04-28,"David Navarro",46,"M","W","CO","G","kdvr.com, cbslocal.com",2018
 "3487",2018-04-28,"Nolberto Hernandez Leon",26,"M","H","CA","G","sacbee.com, abc10.com",2018
 "3488",2018-04-28,"Joseph L. Hoffman",41,"M","W","FL","G","orlandosentinel.com, orlandosentinel.com",2018
@@ -4126,7 +4126,7 @@
 "4125",2019-01-07,"David Novak",35,"M","W","WA","B","kxly.com, spokesman.com",2019
 "4126",2019-01-07,"Jeremy Dale Edmonds",42,"M","W","OK","K","tulsaworld.com, ktul.com",2019
 "4127",2019-01-08,"Michael W. Mobley",53,"M","","MO","G","kfvs12.com, kmov.com",2019
-"4128",2019-01-08,"Jerald Wilson",33,"M","","TX","B","sanangelolive.com, mrt.com",2019
+"4128",2019-01-08,"Jerald Wilson",33,"M","","TX","B","sanangelolive.com, mrt.com, kcbd.com",2019
 "4129",2019-01-10,"Johnny Lee Burney",70,"M","B","AL","G","wsfa.com",2019
 "4130",2019-01-10,"Geoffrey Morris",29,"M","W","KS","G","salinapost.com",2019
 "4131",2019-01-11,"Juston Landry",26,"M","B","LA","G","katc.com, kplctv.com",2019
@@ -4198,7 +4198,7 @@
 "4197",2019-02-03,"Asuncion J. Gomez-Guerrero",35,"M","H","IL","V","chicagotribune.com",2019
 "4198",2019-02-04,"Robert Matz",80,"M","W","WV","G","wsaz.com, wvnews.com",2019
 "4199",2019-02-04,"Corey Johnson",44,"M","B","VA","G","wdbj7.com, wset.com",2019
-"4200",2019-02-05,"Anthony Dewayne Childs",31,"M","B","LA","G","ksla.com, arklatexhomepage.com, klfy.com",2019
+"4200",2019-02-05,"Anthony Dewayne Childs",31,"M","B","LA","G","ksla.com, arklatexhomepage.com, klfy.com, ktbs.com",2019
 "4201",2019-02-06,"Seth Keo Mallard",20,"M","W","CO","G","denverpost.com, kdvr.com, greeleytribune.com",2019
 "4202",2019-02-06,"Hunter Alan",48,"M","","TX","K","themonitor.com, valleymorningstar.com",2019
 "4203",2019-02-06,"Allon Jones",43,"M","B","TN","G","newschannel5.com, dnj.com",2019
@@ -4323,7 +4323,7 @@
 "4322",2019-03-19,"James Hunn",61,"M","W","MO","G","fox2now.com, questia.com",2019
 "4323",2019-03-20,"Osaze Osagie",29,"M","B","PA","K","centredaily.com, centredaily.com",2019
 "4324",2019-03-20,"Stevie Garcia",37,"M","H","NV","G","reviewjournal.com, ktnv.com",2019
-"4325",2019-03-20,"Hannah Westall",26,"F","W","TX","T","ksat.com, ksat.com",2019
+"4325",2019-03-20,"Hannah Westall",26,"F","W","TX","T","ksat.com, ksat.com, ksat.com",2019
 "4326",2019-03-21,"Erick Ramirez",32,"M","","GA","K","wsbtv.com, 11alive.com",2019
 "4327",2019-03-21,"Daishawn Brown",19,"M","B","CA","G","kcra.com, modbee.com, modbee.com",2019
 "4328",2019-03-22,"Bruce Puchel",45,"M","W","NC","G","witn.com, wnct.com",2019
@@ -4356,7 +4356,7 @@
 "4355",2019-04-01,"An unidentified person",29,"M","","TX","U","centexproud.com, kwtx.com",2019
 "4356",2019-04-02,"Donnell James Lang",48,"M","W","CA","N","redding.com, krcrtv.com",2019
 "4357",2019-04-03,"Barry A. Rucker",53,"M","W","IN","G","localnewsdigital.com, indystar.com",2019
-"4358",2019-04-03,"Alfonso Cervantes",50,"M","H","CA","G","nbcsandiego.com, kusi.com",2019
+"4358",2019-04-03,"Alfonso Cervantes",50,"M","H","CA","G","nbcsandiego.com, kusi.com, sandiegouniontribune.com",2019
 "4359",2019-04-03,"Jeffrey Garner",55,"M","H","FL","G","wpbf.com, local10.com",2019
 "4360",2019-04-03,"Zachary Kinard",NA,"M","W","SC","G","thestate.com, wistv.com",2019
 "4361",2019-04-04,"Thomas Verile",37,"M","W","MI","N","wwmt.com, woodtv.com, mlive.com",2019
@@ -4553,7 +4553,7 @@
 "4552",2019-06-18,"Josh Flores",18,"M","H","WA","K","q13fox.com",2019
 "4553",2019-06-18,"Michael Sheridan",34,"M","","CO","G","kdvr.com, denverpost.com",2019
 "4554",2019-06-18,"DeWayne Watkins",74,"M","B","NY","T","spectrumlocalnews.com, syracuse.com, cnycentral.com",2019
-"4555",2019-06-20,"Juan Carlos Chapa",33,"M","H","TX","G","krgv.com, valleycentral.com, washingtonpost.com",2019
+"4555",2019-06-20,"Juan Carlos Chapa",33,"M","H","TX","G","krgv.com, valleycentral.com, washingtonpost.com, krgv.com",2019
 "4556",2019-06-20,"Eric Portillo",38,"M","","OK","G","fox23.com, fox23.com",2019
 "4557",2019-06-20,"Dewayne Tackett",38,"M","W","OH","G","dispatch.com, abc6onyourside.com",2019
 "4558",2019-06-22,"Kevin Anthony Alaniz",26,"M","H","CA","G","mercurynews.com, sfgate.com",2019
@@ -4610,12 +4610,12 @@
 "4609",2019-07-09,"Anthony James Gonzales",36,"M","H","CA","U","kget.com, turnto23.com",2019
 "4610",2019-07-09,"Sean Rambert",23,"M","B","NC","G","witn.com, reflector.com",2019
 "4611",2019-07-09,"Grayson Schuessler",26,"M","W","CA","G","sacbee.com, eastbaytimes.com, cbslocal.com",2019
-"4612",2019-07-09,"Jason Harris",36,"M","","CA","K","kesq.com, sbsun.com",2019
+"4612",2019-07-09,"Jason Harris",36,"M","","CA","K","kesq.com, sbsun.com, desertsun.com",2019
 "4613",2019-07-10,"Darrell Allen",32,"M","B","CA","K","cbslocal.com, vvng.com",2019
 "4614",2019-07-10,"Dennis Edwards",62,"M","W","KS","G","kshb.com, kmbc.com",2019
 "4615",2019-07-11,"Frankie Feliciano",33,"M","H","FL","K","wokv.com, actionnewsjax.com",2019
 "4616",2019-07-11,"Logan O. Johnsrud",32,"M","W","WI","K","wsaw.com, wisconsinrapidstribune.com",2019
-"4617",2019-07-13,"Willem Van Spronsen",69,"M","W","WA","G","seattletimes.com, washingtonpost.com",2019
+"4617",2019-07-13,"Willem Van Spronsen",69,"M","W","WA","G","seattletimes.com, washingtonpost.com, vashonbeachcomber.com",2019
 "4618",2019-07-13,"Derek Antonio-Sanchez",35,"M","H","WA","N","seattletimes.com, patch.com",2019
 "4619",2019-07-13,"Brian H. Benfield",46,"M","W","FL","G","clickorlando.com, wesh.com",2019
 "4620",2019-07-13,"Jamahl Smith",46,"M","B","NJ","K","rlsmedia.com, pix11.com",2019
@@ -4648,7 +4648,7 @@
 "4647",2019-07-23,"Joshua Vigil",38,"M","H","CO","G","kdvr.com, gazette.com",2019
 "4648",2019-07-25,"Josef Delon Richardson",38,"M","B","LA","N","wafb.com, theadvocate.com",2019
 "4649",2019-07-26,"Alphonso Zaporta",41,"M","H","CT","G","wfsb.com, apnews.com",2019
-"4650",2019-07-26,"Todd Messner",49,"M","W","PA","G","wearecentralpa.com, pennlive.com",2019
+"4650",2019-07-26,"Todd Messner",49,"M","W","PA","G","wearecentralpa.com, pennlive.com, altoonamirror.com",2019
 "4651",2019-07-26,"Donald Williams Allamong",56,"M","W","SC","G","fox28media.com, islandpacket.com",2019
 "4652",2019-07-27,"An unidentified person",NA,"M","","TX","G","wbap.com, cbslocal.com",2019
 "4653",2019-07-28,"Adalberto Wolmar Rodriguez",62,"M","H","FL","G","cbs12.com, wptv.com",2019
@@ -4662,7 +4662,7 @@
 "4661",2019-07-31,"Jerry Reeves",42,"M","","TN","G","timesfreepress.com, wrcbtv.com",2019
 "4662",2019-07-31,"Mauris Nishanga DeSilva",46,"M","A","TX","K","cbsaustin.com, kxan.com",2019
 "4663",2019-08-01,"Jamaal Simpson",21,"M","B","CA","G","foxla.com",2019
-"4664",2019-08-01,"Andre Leach",27,"M","","PA","G","6abc.com, cbslocal.com",2019
+"4664",2019-08-01,"Andre Leach",27,"M","","PA","G","6abc.com, cbslocal.com, wfmz.com",2019
 "4665",2019-08-01,"Margarita Victoria Brooks",30,"F","W","TX","N","nbcdfw.com, washingtonpost.com",2019
 "4666",2019-08-01,"Eric Toon",36,"M","W","WV","G","wtap.com, thecount.com",2019
 "4667",2019-08-01,"David Willoughby",54,"M","","KY","V","wkyt.com, kentucky.com",2019
@@ -4704,7 +4704,7 @@
 "4703",2019-08-13,"Cole Steele Jessup",20,"M","W","NC","V","wxii12.com, msn.com",2019
 "4704",2019-08-14,"Thomas Michael Reynolds",37,"M","","SC","G","independentmail.com, wspa.com",2019
 "4705",2019-08-14,"William Lloyd Jones",49,"M","","AR","G","5newsonline.com",2019
-"4706",2019-08-15,"Jamie Fernandez",31,"F","","CO","G","denverpost.com, denverpost.com",2019
+"4706",2019-08-15,"Jamie Fernandez",31,"F","H","CO","G","denverpost.com, denverpost.com",2019
 "4707",2019-08-16,"Jovany Mercado-Bedolla",26,"M","H","UT","K","gephardtdaily.com, kutv.com, standard.net",2019
 "4708",2019-08-16,"An unidentified person",NA,"M","","WA","G","keprtv.com, spokesman.com",2019
 "4709",2019-08-17,"Rashad Cunningham",25,"M","B","IN","G","abc7chicago.com, wgntv.com",2019
@@ -4764,7 +4764,7 @@
 "4763",2019-09-05,"John Carras",43,"M","W","CT","N","fox61.com, wtnh.com",2019
 "4764",2019-09-06,"Vondarrow Dewayne Fisher",42,"M","B","CA","G","abc7.com, cbslocal.com, patch.com",2019
 "4765",2019-09-07,"Brian Quinones",30,"M","H","MN","K","foxnews.com, washingtonpost.com",2019
-"4766",2019-09-07,"An unidentified person",NA,"M","","TX","K","ksla.com",2019
+"4766",2019-09-07,"Terry Wayne Phipps",40,"M","W","TX","K","ksla.com",2019
 "4767",2019-09-08,"Christopher Johnson",51,"M","","WA","G","kptv.com, usnews.com",2019
 "4768",2019-09-08,"Bennie Branch",24,"M","B","WA","T","mynorthwest.com, kiro7.com",2019
 "4769",2019-09-09,"Quentin Broadus",27,"M","B","OK","G","kfor.com, koco.com, koco.com",2019
@@ -4894,7 +4894,7 @@
 "4893",2019-10-25,"Shannon Gail Rupert",45,"F","W","LA","K","shreveporttimes.com, ktbs.com",2019
 "4894",2019-10-25,"Anthony John Michael Zapier",19,"M","W","TN","V","wvlt.tv, wate.com",2019
 "4895",2019-10-25,"Clayton Andrews",40,"M","W","OK","G","kfor.com, kfor.com",2019
-"4896",2019-10-25,"Kwesi Ashun",33,"M","B","NY","O","nbcnewyork.com, cbslocal.com",2019
+"4896",2019-10-25,"Kwesi Ashun",33,"M","B","NY","O","nbcnewyork.com, cbslocal.com, cbslocal.com",2019
 "4897",2019-10-25,"An unidentified person",NA,"M","","NM","G","krqe.com",2019
 "4898",2019-10-25,"Matthew James Fleming",NA,"M","","GA","O","wrcbtv.com, ajc.com",2019
 "4899",2019-10-26,"Nan Zhao",45,"M","A","GA","G","ajc.com",2019
@@ -4934,7 +4934,7 @@
 "4933",2019-11-06,"Corben Hunter Jones",20,"M","W","OK","U","newson6.com, fox23.com",2019
 "4934",2019-11-06,"Raul Casas Campo",34,"M","H","TX","G","news4sanantonio.com",2019
 "4935",2019-11-06,"Treva Smutherman",31,"M","B","NC","G","nbcnews.com, wwaytv3.com, abc11.com",2019
-"4936",2019-11-07,"Guy Thomas Barnard",26,"M","W","OH","T","medina-gazette.com, news5cleveland.com",2019
+"4936",2019-11-07,"Guy Thomas Barnard",26,"M","W","OH","T","medina-gazette.com, news5cleveland.com, cleveland.com",2019
 "4937",2019-11-07,"Shelby Gazaway",32,"M","B","KY","G","wlky.com, wlwt.com",2019
 "4938",2019-11-07,"Gerald Newton Allen",66,"M","W","GA","G","ajc.com, rockdalenewtoncitizen.com",2019
 "4939",2019-11-07,"Christopher Mills",37,"M","W","OH","G","news5cleveland.com, starbeacon.com",2019
@@ -5059,7 +5059,7 @@
 "5058",2019-12-20,"Mohamed Ahemed Al-Hashemi",25,"M","B","AZ","O","12news.com, fox10phoenix.com, fox10phoenix.com",2019
 "5059",2019-12-21,"Mark Stoddard",40,"M","W","UT","G","deseret.com, abc4.com",2019
 "5060",2019-12-21,"Marc Denver Thompson",26,"M","W","GA","B","ajc.com, 11alive.com",2019
-"5061",2019-12-21,"Michael DeCastro",57,"M","W","NY","K","ithaca.com, ithacajournal.com",2019
+"5061",2019-12-21,"Michael DeCastro",57,"M","W","NY","K","ithaca.com, ithacajournal.com, ithaca.com",2019
 "5062",2019-12-21,"Brian Lee Mullen",57,"M","W","IN","G","therepublic.com, courierpress.com",2019
 "5063",2019-12-22,"Romir Talley",24,"M","B","PA","G","post-gazette.com, wearecentralpa.com",2019
 "5064",2019-12-22,"Jesse Adams",34,"M","","CA","G","krcrtv.com",2019
@@ -5097,11 +5097,11 @@
 "5096",2019-12-31,"Terry Hudson",57,"M","B","NE","G","ketv.com, go.com",2019
 "5097",2019-12-31,"Michael Vincent Davis",49,"M","W","WV","G","wowktv.com, apnews.com",2019
 "5098",2020-01-01,"Derrick A. Elseth",24,"M","W","VA","G","wric.com, nbc12.com",2020
-"5099",2020-01-01,"Teddy James Maverick Varner",29,"M","","OR","G","kobi5.com, kdrv.com, kdrv.com",2020
+"5099",2020-01-01,"Teddy James Maverick Varner",29,"M","W","OR","G","kobi5.com, kdrv.com, kdrv.com",2020
 "5100",2020-01-01,"Gerardo Antonio Conchas-Bustas",20,"M","O","CO","K","denverpost.com, kdvr.com",2020
 "5101",2020-01-01,"Gabriel Strickland",25,"M","W","CA","T","sacbee.com",2020
 "5102",2020-01-02,"Jeffery Dale Millsap",26,"M","W","MO","G","kansascity.com, kctv5.com",2020
-"5103",2020-01-02,"Stanley Hayes",69,"M","","OR","G","kxl.com, kptv.com, oregonlive.com",2020
+"5103",2020-01-02,"Stanley Hayes",69,"M","W","OR","G","kxl.com, kptv.com, oregonlive.com",2020
 "5104",2020-01-02,"Jamari Daiwon Tarver",26,"M","B","NV","V","ktnv.com, reviewjournal.com",2020
 "5105",2020-01-02,"Troy Sullenger",41,"M","W","CA","G","cbslocal.com, pe.com",2020
 "5106",2020-01-02,"Mariano Ocon",31,"M","H","IL","G","wgntv.com, radio.com",2020
@@ -5116,14 +5116,14 @@
 "5115",2020-01-06,"Troy Chase Caster",21,"M","W","NC","G","myfox8.com, wral.com",2020
 "5116",2020-01-06,"Xavier Jaime Rovie",28,"M","H","AZ","G","azfamily.com, azcentral.com",2020
 "5117",2020-01-06,"Orlando Abeyta",28,"M","H","NM","G","krqe.com, koat.com",2020
-"5118",2020-01-06,"Nico Descheenie",25,"M","","CO","G","cbslocal.com, denverpost.com, kdvr.com",2020
+"5118",2020-01-06,"Nico Descheenie",25,"M","W","CO","G","cbslocal.com, denverpost.com, kdvr.com",2020
 "5119",2020-01-06,"Dallas Pearce",33,"M","A","HI","T","kitv.com, kitv.com",2020
 "5120",2020-01-07,"Daniel Duane Jensen",59,"M","W","AK","G","ktva.com, ktuu.com",2020
 "5121",2020-01-08,"Dustin M. Eaton",34,"M","W","MO","G","kfvs12.com, kmov.com, dailyjournalonline.com",2020
 "5122",2020-01-08,"Madison Adams",27,"M","","CA","G","startribune.com, avpress.com",2020
 "5123",2020-01-09,"Earl Facey",37,"M","B","NY","G","nytimes.com, nbcnewyork.com, nypost.com, nytimes.com",2020
 "5124",2020-01-09,"Cody Carnes",30,"M","W","ND","G","kfyrtv.com, valleynewslive.com",2020
-"5125",2020-01-09,"Joshua Franklin Roberts",41,"M","","OH","G","meadvilletribune.com, timesleaderonline.com",2020
+"5125",2020-01-09,"Joshua Franklin Roberts",41,"M","W","OH","G","meadvilletribune.com, timesleaderonline.com",2020
 "5126",2020-01-09,"Claude Fain",47,"M","B","PA","G","cbslocal.com, inquirer.com",2020
 "5127",2020-01-09,"Bernie Wade Johnson",34,"M","W","AL","B","cbs42.com, wkrg.com, al.com",2020
 "5128",2020-01-10,"Juan Ayon-Ruiz",24,"M","H","CA","V","cbslocal.com, abc7.com",2020
@@ -5180,18 +5180,18 @@
 "5179",2020-01-29,"Jaquyn Oneill Light",20,"M","B","NC","N","wxii12.com, myfox8.com, myfox8.com",2020
 "5180",2020-01-29,"Clint Stevens",34,"M","W","NY","G","pressconnects.com, thedailystar.com",2020
 "5181",2020-01-29,"Justin Leman",32,"M","W","AK","G","alaska-native-news.com, ktuu.com",2020
-"5182",2020-01-30,"Chad Nicolia",41,"M","","OH","G","woub.org, abc6onyourside.com",2020
+"5182",2020-01-30,"Chad Nicolia",41,"M","W","OH","G","woub.org, abc6onyourside.com",2020
 "5183",2020-01-30,"Abdirahman Salad",15,"M","B","OH","G","abc6onyourside.com, nbc4i.com",2020
-"5184",2020-01-30,"Keith Dutree Collins",52,"M","B","NC","T","abc11.com, newsobserver.com",2020
+"5184",2020-01-30,"Keith Dutree Collins",52,"M","B","NC","T","abc11.com, newsobserver.com, abc11.com",2020
 "5185",2020-01-30,"Richard Davis",29,"M","","MO","G","kctv5.com",2020
 "5186",2020-02-01,"Leonard Parker",53,"M","B","MS","V","ajc.com, rockdalenewtoncitizen.com",2020
 "5187",2020-02-01,"Vincent Conti",24,"M","W","FL","G","wfla.com, fox13news.com",2020
 "5188",2020-02-01,"Ronnell Mouzon",41,"M","B","FL","G","news-press.com, winknews.com",2020
 "5189",2020-02-02,"Alvin Cole",17,"M","B","WI","G","cbs58.com, fox6now.com, waow.com",2020
-"5190",2020-02-02,"Jason Gora",44,"M","W","ME","G","wmtw.com, bangordailynews.com",2020
+"5190",2020-02-02,"Jason Gora",44,"M","W","ME","G","wmtw.com, bangordailynews.com, wgme.com",2020
 "5191",2020-02-02,"Chris Cadotte",63,"M","","AZ","K","yourcentralvalley.com, azfamily.com",2020
 "5192",2020-02-03,"Marc Dominic Neal",56,"M","B","UT","G","ksl.com, fox13now.com",2020
-"5193",2020-02-04,"Darius Tarver",23,"M","B","TX","K","nbcdfw.com, cbslocal.com",2020
+"5193",2020-02-04,"Darius Tarver",23,"M","B","TX","K","nbcdfw.com, cbslocal.com, star-telegram.com",2020
 "5194",2020-02-04,"Shawn Michael Taylor",32,"M","W","OK","G","okcfox.com, kxii.com",2020
 "5195",2020-02-04,"Dominique Antwon Anderson",26,"M","B","CA","K","fresnobee.com, kmph.com",2020
 "5196",2020-02-04,"Thomas Barbosa",41,"M","W","CA","K","krcrtv.com, actionnewsnow.com",2020
@@ -5213,11 +5213,11 @@
 "5212",2020-02-10,"Thomas Ray Chamblee",34,"M","W","AL","G","wsfa.com, waaytv.com",2020
 "5213",2020-02-12,"Hans Alejandro Huitz",51,"M","N","VA","G","wtkr.com, washingtonpost.com",2020
 "5214",2020-02-12,"Michael Marullo",33,"M","W","MD","G","wbaltv.com, wtop.com, baltimoresun.com, wnep.com",2020
-"5215",2020-02-12,"Jeremey Fox",42,"M","","LA","U","shreveporttimes.com, ksla.com",2020
-"5216",2020-02-13,"Dakota Lee Chlarson",25,"M","N","ND","K","kfyrtv.com",2020
+"5215",2020-02-13,"Dakota Lee Chlarson",25,"M","N","ND","K","kfyrtv.com",2020
+"5216",2020-02-13,"Jeremey Fox",42,"M","W","LA","U","shreveporttimes.com, ksla.com",2020
 "5217",2020-02-13,"Brian Francis Filion",41,"M","W","UT","G","standard.net, kutv.com",2020
 "5218",2020-02-13,"Aaron Marcos Valdez",19,"M","H","TX","G","newschannel10.com",2020
-"5219",2020-02-13,"Abel Lopez-Lopez",37,"M","","NV","U","mynews4.com, kkoh.com",2020
+"5219",2020-02-13,"Abel Lopez-Lopez",37,"M","H","NV","U","mynews4.com, kkoh.com",2020
 "5220",2020-02-14,"William Bluestone",21,"M","H","OR","G","kgw.com, nbc16.com",2020
 "5221",2020-02-14,"David Kent Heeke",63,"M","W","CO","G","thedenverchannel.com, denverpost.com, thedenverchannel.com",2020
 "5222",2020-02-14,"Christopher Gutierrez",NA,"M","H","CA","K","abc7.com",2020
@@ -5243,12 +5243,12 @@
 "5242",2020-02-24,"Print Zutavern",28,"M","W","NE","G","journalstar.com, omaha.com",2020
 "5243",2020-02-24,"Stephen O'Brien",20,"M","W","TX","N","mysanantonio.com, kens5.com",2020
 "5244",2020-02-25,"Kenneth Sashington",38,"M","B","AL","G","al.com, washingtonpost.com",2020
-"5245",2020-02-25,"SanJuan Migayle Thomas",39,"M","","LA","G","shreveporttimes.com, ksla.com, ksla.com",2020
-"5246",2020-02-25,"Matthew Felix",19,"M","","NY","V","nbcnewyork.com, abc7ny.com",2020
+"5245",2020-02-25,"SanJuan Migayle Thomas",39,"M","B","LA","G","shreveporttimes.com, ksla.com, ksla.com",2020
+"5246",2020-02-25,"Matthew Felix",19,"M","B","NY","V","nbcnewyork.com, abc7ny.com",2020
 "5247",2020-02-25,"Neal Stuart Nevada",23,"M","W","ID","K","idahostatejournal.com, ktvb.com",2020
 "5248",2020-02-25,"Dylan Olmeda",16,"M","W","TX","G","brownwoodtx.com, kvue.com",2020
 "5249",2020-02-25,"An unidentified person",NA,"M","","CA","U","abc7.com, ocregister.com",2020
-"5250",2020-02-25,"Terry Hasty",56,"M","","SC","G","wpde.com, theitem.com",2020
+"5250",2020-02-25,"Terry Hasty",56,"M","W","SC","G","wpde.com, theitem.com",2020
 "5251",2020-02-26,"David William Irving",35,"M","","MO","U","kctv5.com, kcur.org",2020
 "5252",2020-02-26,"Justin Lee Stackhouse",30,"M","B","FL","V","bradenton.com, mysuncoast.com",2020
 "5253",2020-02-26,"Ramiro Carrasco",30,"M","H","CO","G","9news.com, thedenverchannel.com",2020
@@ -5261,15 +5261,15 @@
 "5260",2020-02-28,"Jose L. Rivera",22,"M","H","WA","G","yaktrinews.com, kpq.com, ifiberone.com",2020
 "5261",2020-02-29,"Anthony Taylor",49,"M","B","WI","G","jsonline.com, wisn.com, wisn.com",2020
 "5262",2020-02-29,"Richard Rodriguez",45,"M","H","TX","G","kens5.com, cbslocal.com",2020
-"5263",2020-02-29,"Stephen Douris",45,"M","W","NV","K","8newsnow.com, news3lv.com, fox5vegas.com",2020
+"5263",2020-02-29,"Stephen Douris",45,"M","W","NV","K","8newsnow.com, news3lv.com, fox5vegas.com, lapalomafuneralservices.com",2020
 "5264",2020-03-01,"Joshua Russell",30,"M","W","CO","G","krdo.com, koaa.com",2020
 "5265",2020-03-01,"Raymundo Aaron Ceja",30,"M","H","CA","G","cbslocal.com, ktla.com",2020
 "5266",2020-03-01,"An unidentified person",NA,"M","","CA","G","abc7.com, ocregister.com",2020
 "5267",2020-03-01,"An unidentified person",NA,"M","","TX","G","khou.com, chron.com",2020
 "5268",2020-03-01,"Ian Austin Wilson",31,"M","W","NC","G","wxii12.com",2020
-"5269",2020-03-02,"Cody Hodges",34,"M","","LA","T","ktbs.com, arklatexhomepage.com, ksla.com",2020
+"5269",2020-03-02,"Cody Hodges",34,"M","W","LA","T","ktbs.com, arklatexhomepage.com, ksla.com",2020
 "5270",2020-03-02,"Terry Cagle",73,"M","W","TX","T","kxii.com, heralddemocrat.com",2020
-"5271",2020-03-03,"Jose Antonio Gainza",49,"M","","FL","K","wsvn.com, nbcmiami.com",2020
+"5271",2020-03-03,"Jose Antonio Gainza",49,"M","H","FL","K","wsvn.com, nbcmiami.com",2020
 "5272",2020-03-03,"Ryan Bass",39,"M","W","WA","G","ncwlife.com, kxly.com",2020
 "5273",2020-03-04,"Christopher Palmer",37,"M","W","AR","N","neareport.com, kait8.com, kait8.com",2020
 "5274",2020-03-04,"Gary Lee Tierney",73,"M","","NC","G","abc11.com, wwaytv3.com",2020
@@ -5305,7 +5305,7 @@
 "5304",2020-03-14,"An unidentified person",48,"M","","FL","V","clickorlando.com",2020
 "5305",2020-03-14,"Jeremiah Medina",31,"M","H","NM","G","ladailypost.com, koat.com, abqjournal.com",2020
 "5306",2020-03-14,"Justin Griggs",30,"M","W","KY","G","wave3.com",2020
-"5307",2020-03-14,"Chase Brooks",32,"M","W","OR","U","kpic.com, kezi.com",2020
+"5307",2020-03-14,"Chase Brooks",32,"M","W","OR","B","kpic.com, kezi.com",2020
 "5308",2020-03-14,"Rory Edwin Murray",30,"M","","CA","G","cbslocal.com, recordnet.com, kcra.com",2020
 "5309",2020-03-14,"Jesse Cadillo",20,"M","W","CO","G","kktv.com, chieftain.com",2020
 "5310",2020-03-15,"Michael Brandon Potter",38,"M","W","NC","G","wxii12.com, thetimesnews.com",2020
@@ -5328,7 +5328,7 @@
 "5327",2020-03-20,"Mycael Johnson",31,"M","B","FL","N","wtxl.com, wctv.tv, wtxl.com",2020
 "5328",2020-03-20,"Kamall Koby Edwards",18,"M","B","GA","G","wtvm.com, ajc.com",2020
 "5329",2020-03-20,"Alvin Lamont Baum",23,"M","B","VA","G","wtkr.com, usnews.com",2020
-"5330",2020-03-21,"Israel Lucas",30,"M","","CA","U","tehachapinews.com, kget.com",2020
+"5330",2020-03-21,"Israel Lucas",30,"M","","CA","B","tehachapinews.com, kget.com",2020
 "5331",2020-03-21,"Bryan Pena",28,"M","","UT","O","gephardtdaily.com, sltrib.com",2020
 "5332",2020-03-22,"Gerald Johnson",55,"M","","CA","T","fresnobee.com, abc30.com",2020
 "5333",2020-03-23,"Carlos Delgado",46,"M","H","TX","B","ksat.com, news4sanantonio.com",2020
@@ -5409,248 +5409,475 @@
 "5408",2020-04-19,"Virgill Thrope",28,"M","B","CO","G","krdo.com, newsbreak.com",2020
 "5409",2020-04-21,"Chase Rosa",24,"M","B","NV","G","8newsnow.com, reviewjournal.com",2020
 "5410",2020-04-21,"Nicholas Chavez",27,"M","H","TX","K","houstonchronicle.com, khou.com, click2houston.com",2020
-"5411",2020-04-22,"Elmer L. Mack",40,"M","B","SC","G","scnow.com",2020
-"5412",2020-04-22,"Christopher Lawson",31,"M","","CO","G","krdo.com, kktv.com",2020
-"5413",2020-04-22,"An unidentified person",NA,"M","","CA","K","foxla.com, latimes.com",2020
-"5414",2020-04-22,"Joshua Johnson",35,"M","B","TX","T","abc13.com, wtol.com",2020
-"5415",2020-04-23,"Luan Agolli",42,"M","W","NJ","G","northjersey.com, abc7ny.com",2020
-"5416",2020-04-23,"Fred Brown",34,"M","","NV","N","fox5vegas.com, 8newsnow.com",2020
-"5417",2020-04-24,"Michael Ramos",42,"M","H","TX","N","statesman.com, fox7austin.com",2020
-"5418",2020-04-24,"Timothy Darryl Slides",28,"M","","NC","G","whky.com, wbtv.com",2020
-"5419",2020-04-24,"Brandan Reid Nylander",24,"M","W","CA","G","kron4.com, nbcbayarea.com, napavalleyregister.com",2020
-"5420",2020-04-24,"Marlon Aaron Bonds",53,"M","","TX","G","nbcdfw.com, cbsaustin.com, dallasnews.com",2020
-"5421",2020-04-24,"Roy Joiner",67,"M","","GA","G","walb.com, thegeorgiasun.com",2020
-"5422",2020-04-24,"Reed Rickabaugh",59,"M","W","ME","G","pressherald.com, bangordailynews.com",2020
-"5423",2020-04-25,"Farron Morris Hammond",61,"M","W","GA","G","cbs46.com, fox5atlanta.com",2020
-"5424",2020-04-26,"Bradley G. Pullman",48,"M","","NJ","V","dailyvoice.com, northjersey.com",2020
-"5425",2020-04-26,"De Quang Tran",26,"M","A","MD","G","smnewsnet.com, wbaltv.com",2020
-"5426",2020-04-27,"Nicolas Chavez",27,"M","","TX","K","abc13.com, houstonpublicmedia.org",2020
-"5427",2020-04-28,"Robert Musser",32,"M","W","AZ","G","azfamily.com, fox10phoenix.com",2020
-"5428",2020-04-28,"William E. Abbe",50,"M","W","WA","K","kptv.com, columbian.com",2020
-"5429",2020-04-29,"Jesus Caballero",38,"M","H","NV","G","news3lv.com, lasvegassun.com, reviewjournal.com",2020
-"5430",2020-04-29,"Artemio Mondragon Alfaro",29,"M","W","CA","V","abc30.com, kmph.com, maderatribune.com",2020
-"5431",2020-04-29,"Malcolm Xavier Ray Williams",27,"M","B","IN","G","wlky.com, newsandtribune.com",2020
-"5432",2020-04-30,"Daniel Hernandez",NA,"M","","CA","G","nbclosangeles.com, cbslocal.com",2020
-"5433",2020-04-30,"Timothy Alan Gilbert",43,"M","W","KY","G","kentucky.com, mansfieldnewsjournal.com",2020
-"5434",2020-05-01,"William Debose",21,"M","B","CO","G","kdvr.com, thedenverchannel.com",2020
-"5435",2020-05-01,"Nicholas Bils",36,"M","W","CA","N","kusi.com, cbs8.com, nbcsandiego.com",2020
-"5436",2020-05-01,"Shaun Lee Fuhr",24,"M","B","WA","N","komonews.com, q13fox.com, komonews.com, seattletimes.com",2020
-"5437",2020-05-01,"An unidentified person",NA,"M","","FL","K","nbcmiami.com, cbslocal.com",2020
-"5438",2020-05-01,"Brent Martin",32,"M","B","AR","G","thv11.com, fox16.com",2020
-"5439",2020-05-01,"Said Joquin",26,"M","B","WA","G","kiro7.com, twitter.com",2020
-"5440",2020-05-03,"Michael Ferguson",54,"M","W","FL","G","miamiherald.com, local10.com",2020
-"5441",2020-05-03,"Kortney Shawn Price",44,"M","W","NC","G","wsoctv.com, wccbcharlotte.com",2020
-"5442",2020-05-03,"Michael Faries",69,"M","W","IN","G","duboiscountyherald.com, wjts.tv",2020
-"5443",2020-05-03,"Filipe Periera",45,"M","W","FL","G","wokv.com, actionnewsjax.com",2020
-"5444",2020-05-03,"Armando Salvatierra",26,"M","H","CA","K","abc7news.com, mercurynews.com",2020
-"5445",2020-05-03,"Chad Adams",43,"M","W","TX","G","news4sanantonio.com, kens5.com",2020
-"5446",2020-05-03,"Phillip Michael Carney",38,"M","W","KS","G","kansascity.com, kctv5.com",2020
-"5447",2020-05-03,"Tyler Wayne Kracht",28,"M","","CO","U","thedenverchannel.com, journal-advocate.com",2020
-"5448",2020-05-04,"Mark Anthony Jones",36,"M","","CA","K","mynewsla.com, ktla.com",2020
-"5449",2020-05-04,"Demontre Bruner",21,"M","B","OK","G","tulsaworld.com, kjrh.com",2020
-"5450",2020-05-05,"Qavon Webb",23,"M","B","MO","G","kmov.com, ksdk.com",2020
-"5451",2020-05-05,"Sandra Lee Harmon",56,"F","W","CA","G","smdailyjournal.com, cbslocal.com",2020
-"5452",2020-05-05,"William Shimp",33,"M","W","MO","G","kshb.com, kansascity.com",2020
-"5453",2020-05-05,"Justin Charland",40,"M","W","NV","K","explica.co, reviewjournal.com",2020
-"5454",2020-05-05,"Jah'Sean Iandie Hodge",21,"M","B","FL","K","clickorlando.com, positivelyosceola.com",2020
-"5455",2020-05-05,"Alfredo Delarosa",20,"M","H","TX","O","ksat.com, ksat.com",2020
-"5456",2020-05-06,"Dreasjon Reed",21,"M","B","IN","G","indystar.com, indystar.com",2020
-"5457",2020-05-06,"An unidentified person",20,"M","","WA","K","q13fox.com, patch.com",2020
-"5458",2020-05-06,"James Joseph James",47,"M","W","NC","K","heraldsun.com, wral.com",2020
-"5459",2020-05-06,"Vincent Ralph Pena",38,"M","H","CO","G","cbslocal.com, kdvr.com",2020
-"5460",2020-05-07,"Ruben Escarrega",31,"M","H","CA","K","presstelegram.com",2020
-"5461",2020-05-07,"James Pease",51,"M","W","NV","G","fox5vegas.com, ktnv.com",2020
-"5462",2020-05-07,"McHale Rose",19,"M","B","IN","G","theindychannel.com, indystar.com",2020
-"5463",2020-05-07,"Daniel Gomez",21,"M","H","CA","K","kget.com, turnto23.com",2020
-"5464",2020-05-08,"Adrian Medearis",48,"M","B","TX","O","houstonchronicle.com, whtc.com",2020
-"5465",2020-05-08,"Lloyd Nelson",47,"M","","CA","G","foxla.com, nbclosangeles.com",2020
-"5466",2020-05-09,"Edgar Melgar",42,"M","H","WI","G","wbay.com, greenbaypressgazette.com",2020
-"5467",2020-05-09,"Finan H. Berhe",30,"M","B","MD","K","wusa9.com, wjla.com",2020
-"5468",2020-05-09,"Yassin Mohamed",47,"M","B","GA","B","statesboroherald.com, wjcl.com",2020
-"5469",2020-05-09,"Darrin Jon Patterson",57,"M","W","CO","G","thedenverchannel.com, denverpost.com",2020
-"5470",2020-05-09,"Jonathan Carter",27,"M","W","NC","O","witn.com, wral.com",2020
-"5471",2020-05-09,"Jayson Thompson",33,"M","","CO","K","gjsentinel.com, thedenverchannel.com",2020
-"5472",2020-05-09,"Ward Benjamin McClain",25,"M","","SC","G","wach.com, wspa.com",2020
-"5473",2020-05-10,"David Urrea",50,"M","W","CA","K","desertsun.com, vvdailypress.com",2020
-"5474",2020-05-11,"An unidentified person",NA,"M","","CA","B","foxla.com, cbslocal.com",2020
-"5475",2020-05-12,"Gregory Howe",37,"M","W","FL","G","clickorlando.com, news-journalonline.com",2020
-"5476",2020-05-13,"David Tylek Atkinson",24,"M","B","NC","G","abc11.com, newsobserver.com",2020
-"5477",2020-05-14,"Rayshard Scales",30,"M","B","TX","T","click2houston.com, fox26houston.com",2020
-"5478",2020-05-14,"Robert Tincher",49,"M","W","OH","K","fox19.com, wlwt.com",2020
-"5479",2020-05-14,"Anthony Ysaac",26,"M","","CA","G","cbslocal.com, ktla.com",2020
-"5480",2020-05-14,"Donny Leek",47,"M","W","TX","G","gosanangelo.com, ktxs.com",2020
-"5481",2020-05-14,"Anthony Angel",30,"M","","SD","G","newscenter1.tv, rapidcityjournal.com",2020
-"5482",2020-05-15,"Roy Ogden",65,"M","","SC","G","live5news.com",2020
-"5483",2020-05-15,"An unidentified person",42,"M","","CA","G","abc7news.com, ktvu.com",2020
-"5484",2020-05-15,"Robert Avila",31,"M","W","CO","V","chieftain.com, the-journal.com, bcdemocratonline.com",2020
-"5485",2020-05-15,"Hunter Carlstrom",33,"M","W","MS","G","oxfordeagle.com, wdam.com",2020
-"5486",2020-05-16,"Robert Johnson",29,"M","B","MD","G","cbslocal.com, baltimoresun.com",2020
-"5487",2020-05-16,"Wallace Dean Staples",42,"M","W","GA","G","11alive.com, wrbl.com",2020
-"5488",2020-05-16,"Randy Roszell Lewis",38,"M","B","TX","K","abc13.com, chron.com, khou.com",2020
-"5489",2020-05-17,"Juan M. Montalvo",25,"M","H","WA","G","tri-cityherald.com, kiro7.com",2020
-"5490",2020-05-17,"Brian Cooper",49,"M","","TN","G","wreg.com, fox13memphis.com",2020
-"5491",2020-05-17,"Bernard Ledlow",39,"M","W","LA","G","theadvocate.com, wdsu.com",2020
-"5492",2020-05-18,"Robert Wayne Lawson",64,"M","W","AR","G","wreg.com, thv11.com",2020
-"5493",2020-05-18,"Jacob Bubb",28,"M","W","WI","G","wbay.com, greenbaypressgazette.com, greenbaypressgazette.com",2020
-"5494",2020-05-19,"Levi Morse",32,"M","W","AL","G","fox10tv.com, wkrg.com",2020
-"5495",2020-05-19,"Wilbon Cleveland Woodard",69,"M","W","FL","O","wtxl.com, wctv.tv",2020
-"5496",2020-05-19,"Tyler Hays",29,"M","W","TN","N","wdef.com, wgowam.com, chattanoogan.com",2020
-"5497",2020-05-19,"An unidentified person",NA,"M","","WA","K","komonews.com, kiro7.com",2020
-"5498",2020-05-20,"An unidentified person",NA,"M","","FL","G","wftv.com, fox35orlando.com",2020
-"5499",2020-05-20,"Tobby Wiggins",45,"M","B","AL","U","weartv.com, atmorenews.com",2020
-"5500",2020-05-20,"An unidentified person",NA,"M","","CA","U","abc7news.com, nbcbayarea.com",2020
-"5501",2020-05-21,"Ryan Whitaker",40,"M","W","AZ","G","fox10phoenix.com, azcentral.com",2020
-"5502",2020-05-21,"Willie Lee Quarles",60,"M","B","SC","G","foxcarolina.com, postandcourier.com",2020
-"5503",2020-05-23,"Bernardo Palacios-Carbajal",22,"M","H","UT","G","ksl.com, sltrib.com",2020
-"5504",2020-05-23,"Maurice S. Gordon",28,"M","B","NJ","N","courierpostonline.com, nbcphiladelphia.com, washingtonpost.com",2020
-"5505",2020-05-23,"Christopher Clark",36,"M","","NJ","G","dailyvoice.com, dailyvoice.com",2020
-"5506",2020-05-23,"Gary Kevin Partin",57,"M","","KY","G","wymt.com, wbir.com",2020
-"5507",2020-05-24,"Michael Snyder",44,"M","","TN","G","fox17.com, knoxnews.com",2020
-"5508",2020-05-24,"Anthony Grove",52,"M","","MT","G","kulr8.com",2020
-"5509",2020-05-25,"Gary P. Dorton",43,"M","","TN","K","wate.com, wvlt.tv",2020
-"5510",2020-05-25,"Joe Louis Castillanos",38,"M","H","TX","G","chron.com, abc13.com",2020
-"5511",2020-05-25,"Dion Johnson",28,"M","B","AZ","U","kvoa.com, abc15.com",2020
-"5512",2020-05-25,"Reymar Gagarin",35,"M","","CA","T","modbee.com, kcra.com",2020
-"5513",2020-05-25,"Justin Mink",33,"M","","TX","K","galvnews.com, click2houston.com",2020
-"5514",2020-05-26,"Richard Councilman",NA,"M","","CA","T","uniondemocrat.com, modbee.com",2020
-"5515",2020-05-26,"Jason Jesse Gallegos",37,"M","W","MI","G","lansingstatejournal.com, wlns.com",2020
-"5516",2020-05-26,"Kenneth Bennett",61,"M","","NY","T","cnycentral.com, syracuse.com",2020
-"5517",2020-05-26,"John Alvarado",22,"M","H","TX","G","kristv.com, caller.com",2020
-"5518",2020-05-26,"Tracy Drowne",42,"F","W","FL","G","mynews13.com, orlandosentinel.com",2020
-"5519",2020-05-26,"An unidentified person",NA,"M","","CO","G","thedenverchannel.com, 9news.com",2020
-"5520",2020-05-26,"Robert Avitia",18,"M","H","CA","G","mynewsla.com, ktla.com",2020
-"5521",2020-05-26,"John Vik",47,"M","","OH","G","timesunion.com, cleveland.com",2020
-"5522",2020-05-26,"John Allen Dunaway",61,"M","","FL","U","firstcoastnews.com, actionnewsjax.com",2020
-"5523",2020-05-27,"Tony McDade",38,"M","B","FL","G","nbcnews.com",2020
-"5524",2020-05-27,"Joshua Blessed",58,"M","W","NY","G","cdllife.com, 13wham.com, thedailynewsonline.com",2020
-"5525",2020-05-27,"Rommel Mendoza",50,"M","H","CA","K","ktla.com, cbslocal.com",2020
-"5526",2020-05-27,"Hector Hernandez",31,"M","H","CA","K","abc7.com, fullertonobserver.com",2020
-"5527",2020-05-27,"Alexander Scott",30,"M","","OK","K","fox23.com, mcalesternews.com",2020
-"5528",2020-05-27,"An unidentified person",NA,"M","","AL","U","wtvy.com, alabamanews.net",2020
-"5529",2020-05-27,"Modesto Reyes",35,"M","B","LA","G","wdsu.com, nola.com",2020
-"5530",2020-05-28,"John Benedict Coleman",53,"M","W","UT","G","ksl.com, kutv.com",2020
-"5531",2020-05-28,"Steven Edward Ferguson",31,"M","W","CO","V","castlerocknewspress.net, 9news.com",2020
-"5532",2020-05-28,"Ruben Smith",35,"M","B","AR","G","arktimes.com, fox16.com",2020
-"5533",2020-05-28,"An unidentified person",NA,"M","","OR","K","katu.com, oregonlive.com",2020
-"5534",2020-05-29,"Heba Momtaz Al-Azhari",22,"F","O","FL","K","baynews9.com, fox13news.com",2020
-"5535",2020-05-29,"An unidentified person",NA,"M","W","CA","T","theavtimes.com, nixle.com, nbclosangeles.com",2020
-"5536",2020-05-29,"An unidentified person",32,"M","A","CA","G","sandiegouniontribune.com, 10news.com",2020
-"5537",2020-05-29,"An unidentified person",NA,"M","","PA","K","cbslocal.com, 6abc.com",2020
-"5538",2020-05-29,"Momodou Lamin Sisay",39,"M","B","GA","G","11alive.com, ajc.com, washingtonpost.com",2020
-"5539",2020-05-29,"Jarvis Sullivan",44,"M","B","FL","V","news4jax.com, jacksonville.com",2020
-"5540",2020-05-30,"Derrick Thompson",46,"M","B","FL","G","dothaneagle.com, wjhg.com",2020
-"5541",2020-05-31,"Israel Berry",49,"M","W","OR","U","katu.com, oregonlive.com, katu.com",2020
-"5542",2020-05-31,"Thomas Sutherlin",32,"M","W","WI","G","wiscnews.com, wdtimes.com",2020
-"5543",2020-06-01,"David McAtee",53,"M","B","KY","G","whas11.com, nbcnews.com, cnn.com",2020
-"5544",2020-06-01,"Jorge Gomez",25,"M","H","NV","G","reviewjournal.com, fox5vegas.com",2020
-"5545",2020-06-01,"Ryan Emblem Moore",36,"M","W","AR","U","nwahomepage.com, fox16.com",2020
-"5546",2020-06-02,"Robert James Lyon",65,"M","","CA","G","krcrtv.com, redding.com",2020
-"5547",2020-06-02,"Sean Monterrosa",22,"M","H","CA","B","theguardian.com, buzzfeednews.com",2020
-"5548",2020-06-02,"Tyquarn Graves",33,"M","B","NY","G","nydailynews.com, news12.com",2020
-"5549",2020-06-03,"Mary Lawrence",39,"F","W","OK","K","4029tv.com, newson6.com",2020
-"5550",2020-06-03,"Gregory W. Hallback",44,"M","W","SC","G","wjbf.com, aikenstandard.com",2020
-"5551",2020-06-03,"Eric A. Galvan",25,"M","H","TX","G","caller.com, caller.com, kiiitv.com",2020
-"5552",2020-06-03,"Scott Anderson Hutton",36,"M","W","AR","U","bentoncourier.com, fox16.com",2020
-"5553",2020-06-05,"Benjamin Ballard",42,"M","W","OK","G","koco.com, kfor.com",2020
-"5554",2020-06-05,"James Pharr",60,"M","","TX","G","kvia.com, ktsm.com",2020
-"5555",2020-06-06,"Kamal Flowers",24,"M","B","NY","G","abc7ny.com, lohud.com",2020
-"5556",2020-06-06,"Erik Salgado",22,"M","H","CA","U","kron4.com, cbslocal.com, ktvu.com",2020
-"5557",2020-06-06,"Gregory Lee Turnure",37,"M","","TN","B","wvlt.tv, wate.com",2020
-"5558",2020-06-07,"Jeffrey McClure",26,"M","","NY","T","dailyvoice.com, pix11.com, dailyvoice.com",2020
-"5559",2020-06-07,"Jarrid Hurst",35,"M","W","CA","K","nbclosangeles.com, latimes.com",2020
-"5560",2020-06-07,"Donald L. Hunter",39,"M","","MO","G","kansascity.com",2020
-"5561",2020-06-08,"Michael Seltzer",81,"M","","NM","G","ktsm.com, lcsun-news.com",2020
-"5562",2020-06-09,"Marcus James Uribe",31,"M","W","CO","G","kdvr.com, cbslocal.com",2020
-"5563",2020-06-09,"Lewis Ruffin",38,"M","B","FL","G","wftv.com, fox35orlando.com",2020
-"5564",2020-06-09,"Richard L. Mason",59,"M","","MT","G","missoulian.com, flatheadbeacon.com",2020
-"5565",2020-06-10,"Jerry M. Bethel",59,"M","","ID","G","idahostatesman.com, ktvb.com, idahostatesman.com",2020
-"5566",2020-06-10,"Phillip Dibenedetto",36,"M","","FL","G","theledger.com, patch.com",2020
-"5567",2020-06-11,"Gregorio Cruz Vanloo",28,"M","W","TN","G","wsmv.com, wjle.com",2020
-"5568",2020-06-11,"Mason James Lira",26,"M","W","CA","G","cnn.com, nytimes.com, keyt.com",2020
-"5569",2020-06-11,"Michael Thomas",62,"M","B","CA","U","cbsnews.com, thedailybeast.com, latimes.com",2020
-"5570",2020-06-12,"Rayshard Brooks",27,"M","B","GA","O","atlantaintownpaper.com, ajc.com",2020
-"5571",2020-06-12,"Caine Van Pelt",23,"M","B","IN","G","abc7chicago.com, nwitimes.com",2020
-"5572",2020-06-13,"Hannah R. Fizer",25,"F","W","MO","N","ktvo.com, komu.com, sedaliademocrat.com",2020
-"5573",2020-06-13,"William Slyter",22,"M","W","MO","G","fox4kc.com, kctv5.com, kshb.com",2020
-"5574",2020-06-13,"Anthony Angel Armenta",21,"M","H","CA","T","sbsun.com, ktla.com, sbsun.com",2020
-"5575",2020-06-15,"Nicholas Hirsh",31,"M","W","KS","G","omaha.com",2020
-"5576",2020-06-16,"Brandon Gardner",24,"M","","IL","G","suntimes.com, wgntv.com, dailyherald.com",2020
-"5577",2020-06-16,"Donald Ward",27,"M","","AZ","G","azfamily.com, fox10phoenix.com",2020
-"5578",2020-06-17,"Terron Jammal Boone",31,"M","B","CA","G","kiro7.com, foxla.com, latimes.com",2020
-"5579",2020-06-17,"An unidentified person",NA,"M","","NV","K","kolotv.com, kkoh.com",2020
-"5580",2020-06-18,"An unidentified person",38,"M","W","CO","G","9news.com, thedenverchannel.com",2020
-"5581",2020-06-18,"Kellen Fortune",19,"M","","MT","G","billingsgazette.com, ktvq.com",2020
-"5582",2020-06-18,"Andres Guardado",18,"M","H","CA","G","foxla.com, abc7.com",2020
-"5583",2020-06-18,"David Lee Jacobs",38,"M","W","CO","G","thedenverchannel.com, 9news.com",2020
-"5584",2020-06-19,"Henry Barnes",25,"M","","OK","U","ktul.com, fourstateshomepage.com",2020
-"5585",2020-06-19,"Cody W. Cook",24,"M","W","NY","G","rochesterfirst.com, 13wham.com, breaking911.com",2020
-"5586",2020-06-20,"Michael Torres",35,"M","","LA","K","katc.com, kplctv.com",2020
-"5587",2020-06-21,"Brandeis Codde",19,"M","","CA","K","patch.com, abc7news.com",2020
-"5588",2020-06-22,"David Guillen",22,"M","","CO","G","kdvr.com, denverpost.com",2020
-"5589",2020-06-22,"An unidentified person",NA,"M","","CA","G","nbcpalmsprings.com, desertsun.com",2020
-"5590",2020-06-22,"An unidentified person",43,"M","B","TX","K","kvue.com, cbslocal.com",2020
-"5591",2020-06-23,"Kevin Pulido",43,"M","H","CO","G","krdo.com, kktv.com",2020
-"5592",2020-06-24,"An unidentified person",NA,"F","A","CA","G","foxla.com, cbslocal.com",2020
-"5593",2020-06-25,"Julie Colon",27,"F","","TX","K","fox4news.com, cbslocal.com",2020
-"5594",2020-06-25,"Robert D'Lon Harris",34,"M","","OK","U","kfor.com, krmg.com",2020
-"5595",2020-06-25,"Martin Humberto Sanchez Fregoso",37,"M","H","GA","G","wsbtv.com, ajc.com",2020
-"5596",2020-06-26,"Sabastian Noel",27,"M","W","FL","G","fox13news.com, fox13news.com",2020
-"5597",2020-06-26,"Aaron Wesley Keller",30,"M","W","NV","G","carsonnow.org, elkodaily.com, elkodaily.com",2020
-"5598",2020-06-26,"Benjamin Paul Brooks",38,"M","W","IN","G","thestarpress.com, fox59.com",2020
-"5599",2020-06-27,"Michael Pelley",33,"M","W","KY","K","local12.com, wlwt.com",2020
-"5600",2020-06-27,"Bonnie Figueroa-Ortiz",40,"F","W","FL","G","tampabay.com, wtsp.com, fox13news.com",2020
-"5601",2020-06-27,"Leonardo Hurtado Ibarra",25,"M","H","CA","G","10news.com, cbs8.com",2020
-"5602",2020-06-27,"Mark Eberly",57,"M","W","TN","G","wate.com, wreg.com",2020
-"5603",2020-06-27,"Aloysius Keaton",58,"M","","AR","K","thv11.com, fox16.com",2020
-"5604",2020-06-28,"James Tober",68,"M","","OH","G","daytondailynews.com, whio.com, daytondailynews.com",2020
-"5605",2020-06-29,"John Parks",57,"M","W","KY","U","kentucky.com, wpsdlocal6.com",2020
-"5606",2020-06-29,"Wade Russell Meisberger",48,"M","W","PA","G","theindychannel.com, pennlive.com, fox56.com",2020
-"5607",2020-06-29,"Brittany S. Teichroeb",26,"F","W","TX","G","cbs7.com, newswest9.com",2020
-"5608",2020-06-30,"Kevin Lee Catlett",62,"M","","TN","G","wjhl.com, wcyb.com",2020
-"5609",2020-07-01,"John Noble Snow",34,"M","W","CO","G","durangoherald.com, kob.com",2020
-"5610",2020-07-02,"Ky Johnson",31,"M","B","MO","G","kansascity.com, fox4kc.com, hayspost.com",2020
-"5611",2020-07-02,"Kevan Ruffin",32,"M","B","WI","K","whbl.com, sheboyganpress.com, sheboyganpress.com, sheboyganpress.com",2020
-"5612",2020-07-03,"Doug Diamond",58,"M","","OR","G","oregonlive.com, katu.com",2020
-"5613",2020-07-04,"James Porter Garcia",28,"M","H","AZ","U","washingtonpost.com, azcentral.com",2020
-"5614",2020-07-04,"Axal Perez",17,"M","H","FL","K","firstcoastnews.com, actionnewsjax.com",2020
-"5615",2020-07-05,"An unidentified person",NA,"M","","CA","U","dailybulletin.com, abc7.com",2020
-"5616",2020-07-05,"Taylor Christian Warner",30,"M","","IN","T","nwitimes.com, wbiw.com",2020
-"5617",2020-07-05,"Rodney Liveringhouse",70,"M","","AZ","G","azfamily.com, 12news.com",2020
-"5618",2020-07-06,"Joseph W. Denton",35,"M","B","WI","G","channel3000.com, tmj4.com",2020
-"5619",2020-07-06,"Joey Hoffman",40,"M","","PA","G","wfmz.com, mcall.com",2020
-"5620",2020-07-07,"Paul Eugene Armstrong",62,"M","","TN","G","wkrn.com, wrcbtv.com",2020
-"5621",2020-07-07,"Carlos Baires",36,"M","","CA","V","abc30.com, yourcentralvalley.com",2020
-"5622",2020-07-07,"An unidentified person",NA,"M","","TX","G","abc13.com, khou.com",2020
-"5623",2020-07-08,"Wade Phillips",49,"M","","SC","G","wbtw.com, wmbfnews.com, wmbfnews.com",2020
-"5624",2020-07-09,"Richard Lewis Price",49,"M","","CA","T","sandiegouniontribune.com, sandiegouniontribune.com",2020
-"5625",2020-07-10,"Kevin Michael Norton",60,"M","W","PA","G","sungazette.com, pennlive.com",2020
-"5626",2020-07-10,"Hakim Littleton",20,"M","B","MI","G","clickondetroit.com, freep.com",2020
-"5627",2020-07-10,"Kanavis Dujuan Glass",31,"M","","FL","G","wjhg.com, mypanhandle.com",2020
-"5628",2020-07-11,"An unidentified person",NA,"M","","CO","G","kktv.com, 9news.com",2020
-"5629",2020-07-11,"Michael Joseph Culbertson",26,"M","","SC","G","wspa.com, wyff4.com",2020
-"5630",2020-07-12,"Marcos Reyes",28,"M","","GA","G","wsbtv.com, 11alive.com",2020
-"5631",2020-07-12,"Terena Nicole Thurman",36,"F","","OH","V","dayton247now.com, wdtn.com, whio.com",2020
-"5632",2020-07-12,"Rodney Morrison",47,"M","","GA","K","walb.com, ajc.com",2020
-"5633",2020-07-13,"Glenn Farse Young",59,"M","","TN","G","wate.com, wbir.com",2020
-"5634",2020-07-14,"Sean Ernest Ruis",43,"M","W","MI","K","wilx.com, siouxlandproud.com",2020
-"5635",2020-07-14,"Vincent Demario Truitt",17,"M","","GA","G","ajc.com, 11alive.com, 11alive.com",2020
-"5636",2020-07-14,"Cristhian Eliud Ramos-Murillo",32,"M","H","TN","G","wbir.com, wate.com, wate.com",2020
-"5637",2020-07-14,"Julio Jaramillo",28,"M","H","NM","G","demingheadlight.com, krqe.com",2020
-"5638",2020-07-14,"Timothy O'Shea",24,"M","","NJ","T","patch.com, nj.com",2020
-"5639",2020-07-15,"Antwane Burrise",39,"M","","CA","V","kcra.com, abc10.com, cbslocal.com",2020
-"5640",2020-07-16,"Aaron Olsvik",23,"M","W","WA","K","kiro7.com, mynorthwest.com, lmtonline.com",2020
-"5641",2020-07-16,"An unidentified person",60,"M","W","FL","G","winknews.com, news-press.com",2020
-"5642",2020-07-16,"Chase Roundtree",33,"M","W","TX","G","everythinglubbock.com, newschannel6now.com, bigcountryhomepage.com",2020
-"5643",2020-07-17,"David Martin",28,"M","","CO","G","cbslocal.com, westernslopenow.com",2020
-"5644",2020-07-17,"Malcolm Comeaux",24,"M","","TX","T","abc13.com, lmtonline.com, chron.com",2020
-"5645",2020-07-18,"Darius Washington",24,"M","B","IL","G","chicagotribune.com, abc7chicago.com, nwitimes.com",2020
-"5646",2020-07-20,"Vincent Harris",51,"M","B","LA","G","theadvocate.com, wbrz.com, wafb.com, wafb.com",2020
-"5647",2020-07-20,"David Angulo",33,"M","","CA","G","10news.com, cbs8.com",2020
-"5648",2020-07-21,"An unidentified person",NA,"M","W","OK","G","kfor.com, news9.com",2020
-"5649",2020-07-21,"Southern Jeremy",22,"M","B","CA","G","cbslocal.com, sacbee.com",2020
-"5650",2020-07-22,"An unidentified person",NA,"F","","FL","G","tampabay.com, wfla.com",2020
-"5651",2020-07-23,"An unidentified person",NA,"M","","MI","G","detroitnews.com, detroitnews.com",2020
-"5652",2020-07-25,"Christopher Poor",49,"M","W","OK","U","kfor.com, koco.com",2020
-"5653",2020-07-26,"Samuel Solomon Cochran Jr",22,"M","","NC","K","myfox8.com, wfmynews2.com",2020
-"5654",2020-07-27,"David Earl Brooks",45,"M","","NC","G","wral.com, ncadvertiser.com",2020
-"5655",2020-07-28,"An unidentified person",NA,"M","","NC","G","wyff4.com, wspa.com",2020
+"5411",2020-04-21,"Nicolas Chavez",27,"M","H","TX","O","abc13.com, houstonpublicmedia.org, nytimes.com",2020
+"5412",2020-04-22,"Elmer L. Mack",40,"M","B","SC","G","scnow.com",2020
+"5413",2020-04-22,"Christopher Lawson",31,"M","","CO","G","krdo.com, kktv.com",2020
+"5414",2020-04-22,"An unidentified person",NA,"M","","CA","K","foxla.com, latimes.com",2020
+"5415",2020-04-22,"Joshua Johnson",35,"M","B","TX","T","abc13.com, wtol.com",2020
+"5416",2020-04-23,"Luan Agolli",42,"M","W","NJ","G","northjersey.com, abc7ny.com",2020
+"5417",2020-04-23,"Fred Brown",34,"M","","NV","N","fox5vegas.com, 8newsnow.com",2020
+"5418",2020-04-24,"Michael Ramos",42,"M","H","TX","N","statesman.com, fox7austin.com",2020
+"5419",2020-04-24,"Timothy Darryl Slides",28,"M","","NC","G","whky.com, wbtv.com",2020
+"5420",2020-04-24,"Brandan Reid Nylander",24,"M","W","CA","G","kron4.com, nbcbayarea.com, napavalleyregister.com",2020
+"5421",2020-04-24,"Marlon Aaron Bonds",53,"M","","TX","G","nbcdfw.com, cbsaustin.com, dallasnews.com",2020
+"5422",2020-04-24,"Roy Joiner",67,"M","","GA","G","walb.com, thegeorgiasun.com",2020
+"5423",2020-04-24,"Reed Rickabaugh",59,"M","W","ME","G","pressherald.com, bangordailynews.com",2020
+"5424",2020-04-25,"Farron Morris Hammond",61,"M","W","GA","G","cbs46.com, fox5atlanta.com",2020
+"5425",2020-04-26,"Bradley G. Pullman",48,"M","","NJ","V","dailyvoice.com, northjersey.com",2020
+"5426",2020-04-26,"De Quang Tran",26,"M","A","MD","G","smnewsnet.com, wbaltv.com",2020
+"5427",2020-04-27,"Christopher Aguirre",28,"M","H","TX","G","apnews.com, houstontx.gov",2020
+"5428",2020-04-28,"Robert Musser",32,"M","W","AZ","G","azfamily.com, fox10phoenix.com",2020
+"5429",2020-04-28,"Jonas Joseph",26,"M","B","FL","G","tampabay.com, fox13news.com",2020
+"5430",2020-04-28,"William E. Abbe",50,"M","W","WA","K","kptv.com, columbian.com",2020
+"5431",2020-04-29,"Jesus Caballero",38,"M","H","NV","G","news3lv.com, lasvegassun.com, reviewjournal.com",2020
+"5432",2020-04-29,"Artemio Mondragon Alfaro",29,"M","W","CA","V","abc30.com, kmph.com, maderatribune.com",2020
+"5433",2020-04-29,"Malcolm Xavier Ray Williams",27,"M","B","IN","G","wlky.com, newsandtribune.com",2020
+"5434",2020-04-30,"Daniel Hernandez",NA,"M","","CA","G","nbclosangeles.com, cbslocal.com",2020
+"5435",2020-04-30,"Timothy Alan Gilbert",43,"M","W","KY","G","kentucky.com, mansfieldnewsjournal.com",2020
+"5436",2020-05-01,"William Debose",21,"M","B","CO","G","kdvr.com, thedenverchannel.com",2020
+"5437",2020-05-01,"Nicholas Bils",36,"M","W","CA","N","kusi.com, cbs8.com, nbcsandiego.com",2020
+"5438",2020-05-01,"Shaun Lee Fuhr",24,"M","B","WA","N","komonews.com, q13fox.com, komonews.com, seattletimes.com",2020
+"5439",2020-05-01,"An unidentified person",NA,"M","","FL","K","nbcmiami.com, cbslocal.com",2020
+"5440",2020-05-01,"Brent Martin",32,"M","B","AR","G","thv11.com, fox16.com",2020
+"5441",2020-05-01,"Said Joquin",26,"M","B","WA","G","kiro7.com, twitter.com",2020
+"5442",2020-05-01,"Spencer Calvert",21,"M","W","IN","K","wfft.com, thecr.com",2020
+"5443",2020-05-03,"Michael Ferguson",54,"M","W","FL","G","miamiherald.com, local10.com",2020
+"5444",2020-05-03,"Kortney Shawn Price",44,"M","W","NC","G","wsoctv.com, wccbcharlotte.com",2020
+"5445",2020-05-03,"Michael Faries",69,"M","W","IN","G","duboiscountyherald.com, wjts.tv, courierpress.com",2020
+"5446",2020-05-03,"Filipe Periera",45,"M","W","FL","G","wokv.com, actionnewsjax.com",2020
+"5447",2020-05-03,"Armando Salvatierra",26,"M","H","CA","K","abc7news.com, mercurynews.com",2020
+"5448",2020-05-03,"Chad Adams",43,"M","W","TX","G","news4sanantonio.com, kens5.com",2020
+"5449",2020-05-03,"Phillip Michael Carney",38,"M","W","KS","G","kansascity.com, kctv5.com",2020
+"5450",2020-05-03,"Tyler Wayne Kracht",28,"M","","CO","U","thedenverchannel.com, journal-advocate.com",2020
+"5451",2020-05-04,"Mark Anthony Jones",36,"M","","CA","K","mynewsla.com, ktla.com",2020
+"5452",2020-05-04,"Demontre Bruner",21,"M","B","OK","G","tulsaworld.com, kjrh.com",2020
+"5453",2020-05-05,"Qavon Webb",23,"M","B","MO","G","kmov.com, ksdk.com",2020
+"5454",2020-05-05,"Sandra Lee Harmon",56,"F","W","CA","G","smdailyjournal.com, cbslocal.com, hmbreview.com",2020
+"5455",2020-05-05,"William Shimp",33,"M","W","MO","G","kshb.com, kansascity.com",2020
+"5456",2020-05-05,"Justin Charland",40,"M","W","NV","K","explica.co, reviewjournal.com",2020
+"5457",2020-05-05,"Jah'Sean Iandie Hodge",21,"M","B","FL","K","clickorlando.com, positivelyosceola.com",2020
+"5458",2020-05-05,"Alfredo Delarosa",20,"M","H","TX","O","ksat.com, ksat.com",2020
+"5459",2020-05-06,"Dreasjon Reed",21,"M","B","IN","G","indystar.com, indystar.com",2020
+"5460",2020-05-06,"An unidentified person",20,"M","","WA","K","q13fox.com, patch.com",2020
+"5461",2020-05-06,"James Joseph James",47,"M","W","NC","K","heraldsun.com, wral.com",2020
+"5462",2020-05-06,"Vincent Ralph Pena",38,"M","H","CO","G","cbslocal.com, kdvr.com",2020
+"5463",2020-05-07,"Ruben Escarrega",31,"M","H","CA","K","presstelegram.com",2020
+"5464",2020-05-07,"James Pease",51,"M","W","NV","G","fox5vegas.com, ktnv.com",2020
+"5465",2020-05-07,"McHale Rose",19,"M","B","IN","G","theindychannel.com, indystar.com",2020
+"5466",2020-05-07,"Daniel Gomez",21,"M","H","CA","K","kget.com, turnto23.com",2020
+"5467",2020-05-08,"Adrian Medearis",48,"M","B","TX","O","houstonchronicle.com, whtc.com",2020
+"5468",2020-05-08,"Lloyd Nelson",47,"M","","CA","G","foxla.com, nbclosangeles.com",2020
+"5469",2020-05-09,"Edgar Melgar",42,"M","H","WI","G","wbay.com, greenbaypressgazette.com",2020
+"5470",2020-05-09,"Finan H. Berhe",30,"M","B","MD","K","wusa9.com, wjla.com",2020
+"5471",2020-05-09,"Yassin Mohamed",47,"M","B","GA","B","statesboroherald.com, wjcl.com",2020
+"5472",2020-05-09,"Darrin Jon Patterson",57,"M","W","CO","G","thedenverchannel.com, denverpost.com",2020
+"5473",2020-05-09,"Jonathan Carter",27,"M","W","NC","O","witn.com, wral.com",2020
+"5474",2020-05-09,"Jayne Thompson",33,"F","","CO","K","gjsentinel.com, thedenverchannel.com, hrc.org",2020
+"5475",2020-05-09,"Ward Benjamin McClain",25,"M","","SC","G","wach.com, wspa.com",2020
+"5476",2020-05-10,"David Urrea",50,"M","W","CA","K","desertsun.com, vvdailypress.com",2020
+"5477",2020-05-11,"An unidentified person",NA,"M","","CA","B","foxla.com, cbslocal.com",2020
+"5478",2020-05-12,"Gregory Howe",37,"M","W","FL","G","clickorlando.com, news-journalonline.com",2020
+"5479",2020-05-13,"David Tylek Atkinson",24,"M","B","NC","G","abc11.com, newsobserver.com",2020
+"5480",2020-05-14,"Rayshard Scales",30,"M","B","TX","T","click2houston.com, fox26houston.com",2020
+"5481",2020-05-14,"Robert Tincher",49,"M","W","OH","K","fox19.com, wlwt.com",2020
+"5482",2020-05-14,"Anthony Ysaac",26,"M","","CA","G","cbslocal.com, ktla.com",2020
+"5483",2020-05-14,"Donny Leek",47,"M","W","TX","G","gosanangelo.com, ktxs.com",2020
+"5484",2020-05-14,"Anthony Angel",30,"M","","SD","G","newscenter1.tv, rapidcityjournal.com",2020
+"5485",2020-05-15,"Roy Ogden",65,"M","","SC","G","live5news.com",2020
+"5486",2020-05-15,"An unidentified person",42,"M","","CA","G","abc7news.com, ktvu.com",2020
+"5487",2020-05-15,"Robert Avila",31,"M","W","CO","V","chieftain.com, the-journal.com, bcdemocratonline.com",2020
+"5488",2020-05-15,"Hunter Carlstrom",33,"M","W","MS","G","oxfordeagle.com, wdam.com",2020
+"5489",2020-05-16,"Robert Johnson",29,"M","B","MD","G","cbslocal.com, baltimoresun.com",2020
+"5490",2020-05-16,"Wallace Dean Staples",42,"M","W","GA","G","11alive.com, wrbl.com",2020
+"5491",2020-05-16,"Randy Roszell Lewis",38,"M","B","TX","K","abc13.com, chron.com, khou.com",2020
+"5492",2020-05-17,"Juan M. Montalvo",25,"M","H","WA","G","tri-cityherald.com, kiro7.com",2020
+"5493",2020-05-17,"Brian Cooper",49,"M","","TN","G","wreg.com, fox13memphis.com",2020
+"5494",2020-05-17,"Bernard Ledlow",39,"M","W","LA","G","theadvocate.com, wdsu.com",2020
+"5495",2020-05-18,"Robert Wayne Lawson",64,"M","W","AR","G","wreg.com, thv11.com",2020
+"5496",2020-05-18,"Jacob Bubb",28,"M","W","WI","G","wbay.com, greenbaypressgazette.com, greenbaypressgazette.com",2020
+"5497",2020-05-19,"Levi Morse",32,"M","W","AL","G","fox10tv.com, wkrg.com",2020
+"5498",2020-05-19,"Wilbon Cleveland Woodard",69,"M","W","FL","O","wtxl.com, wctv.tv",2020
+"5499",2020-05-19,"Tyler Hays",29,"M","W","TN","N","wdef.com, wgowam.com, chattanoogan.com",2020
+"5500",2020-05-19,"An unidentified person",NA,"M","","WA","K","komonews.com, kiro7.com",2020
+"5501",2020-05-20,"An unidentified person",NA,"M","","FL","G","wftv.com, fox35orlando.com",2020
+"5502",2020-05-20,"Tobby Wiggins",45,"M","B","AL","U","weartv.com, atmorenews.com",2020
+"5503",2020-05-20,"Stoney Ramirez",23,"M","","CA","V","abc7news.com, nbcbayarea.com",2020
+"5504",2020-05-21,"Ryan Whitaker",40,"M","W","AZ","G","fox10phoenix.com, azcentral.com",2020
+"5505",2020-05-21,"Willie Lee Quarles",60,"M","B","SC","G","foxcarolina.com, postandcourier.com",2020
+"5506",2020-05-23,"Bernardo Palacios-Carbajal",22,"M","H","UT","G","ksl.com, sltrib.com",2020
+"5507",2020-05-23,"Maurice S. Gordon",28,"M","B","NJ","N","courierpostonline.com, nbcphiladelphia.com, washingtonpost.com",2020
+"5508",2020-05-23,"Christopher Clark",36,"M","","NJ","G","dailyvoice.com, dailyvoice.com",2020
+"5509",2020-05-23,"Gary Kevin Partin",57,"M","","KY","G","wymt.com, wbir.com",2020
+"5510",2020-05-24,"Michael Snyder",44,"M","","TN","G","fox17.com, knoxnews.com",2020
+"5511",2020-05-24,"Anthony Grove",52,"M","","MT","G","kulr8.com",2020
+"5512",2020-05-25,"Gary P. Dorton",43,"M","","TN","K","wate.com, wvlt.tv",2020
+"5513",2020-05-25,"Joe Louis Castillanos",38,"M","H","TX","G","chron.com, abc13.com",2020
+"5514",2020-05-25,"Dion Johnson",28,"M","B","AZ","U","kvoa.com, abc15.com",2020
+"5515",2020-05-25,"Reymar Gagarin",35,"M","","CA","T","modbee.com, kcra.com",2020
+"5516",2020-05-25,"Justin Mink",33,"M","","TX","K","galvnews.com, click2houston.com",2020
+"5517",2020-05-26,"Richard Councilman",NA,"M","","CA","T","uniondemocrat.com, modbee.com",2020
+"5518",2020-05-26,"Jason Jesse Gallegos",37,"M","W","MI","G","lansingstatejournal.com, wlns.com",2020
+"5519",2020-05-26,"Kenneth Bennett",61,"M","","NY","T","cnycentral.com, syracuse.com",2020
+"5520",2020-05-26,"John Alvarado",22,"M","H","TX","G","kristv.com, caller.com",2020
+"5521",2020-05-26,"Tracy Drowne",42,"F","W","FL","G","mynews13.com, orlandosentinel.com",2020
+"5522",2020-05-26,"An unidentified person",NA,"M","","CO","G","thedenverchannel.com, 9news.com",2020
+"5523",2020-05-26,"Robert Avitia",18,"M","H","CA","G","mynewsla.com, ktla.com",2020
+"5524",2020-05-26,"John Vik",47,"M","","OH","G","timesunion.com, cleveland.com",2020
+"5525",2020-05-26,"John Allen Dunaway",61,"M","","FL","U","firstcoastnews.com, actionnewsjax.com",2020
+"5526",2020-05-27,"Tony McDade",38,"M","B","FL","G","nbcnews.com",2020
+"5527",2020-05-27,"Joshua Blessed",58,"M","W","NY","G","cdllife.com, 13wham.com, thedailynewsonline.com",2020
+"5528",2020-05-27,"Rommel Mendoza",50,"M","H","CA","K","ktla.com, cbslocal.com",2020
+"5529",2020-05-27,"Hector Hernandez",31,"M","H","CA","K","abc7.com, fullertonobserver.com",2020
+"5530",2020-05-27,"Alexander Scott",30,"M","","OK","K","fox23.com, mcalesternews.com",2020
+"5531",2020-05-27,"An unidentified person",NA,"M","","AL","U","wtvy.com, alabamanews.net",2020
+"5532",2020-05-27,"Modesto Reyes",35,"M","B","LA","G","wdsu.com, nola.com",2020
+"5533",2020-05-28,"John Benedict Coleman",53,"M","W","UT","G","ksl.com, kutv.com",2020
+"5534",2020-05-28,"Steven Edward Ferguson",31,"M","W","CO","V","castlerocknewspress.net, 9news.com",2020
+"5535",2020-05-28,"Ruben Smith",35,"M","B","AR","G","arktimes.com, fox16.com",2020
+"5536",2020-05-28,"An unidentified person",NA,"M","","OR","K","katu.com, oregonlive.com",2020
+"5537",2020-05-29,"Heba Momtaz Al-Azhari",22,"F","O","FL","K","baynews9.com, fox13news.com",2020
+"5538",2020-05-29,"An unidentified person",NA,"M","W","CA","T","theavtimes.com, nixle.com, nbclosangeles.com",2020
+"5539",2020-05-29,"An unidentified person",32,"M","A","CA","G","sandiegouniontribune.com, 10news.com",2020
+"5540",2020-05-29,"An unidentified person",NA,"M","","PA","K","cbslocal.com, 6abc.com",2020
+"5541",2020-05-29,"Momodou Lamin Sisay",39,"M","B","GA","G","11alive.com, ajc.com, washingtonpost.com",2020
+"5542",2020-05-29,"Jarvis Sullivan",44,"M","B","FL","V","news4jax.com, jacksonville.com",2020
+"5543",2020-05-30,"Derrick Thompson",46,"M","B","FL","G","dothaneagle.com, wjhg.com",2020
+"5544",2020-05-31,"Israel Berry",49,"M","W","OR","U","katu.com, oregonlive.com, katu.com",2020
+"5545",2020-05-31,"Thomas Sutherlin",32,"M","W","WI","G","wiscnews.com, wdtimes.com",2020
+"5546",2020-06-01,"David McAtee",53,"M","B","KY","G","whas11.com, nbcnews.com, cnn.com",2020
+"5547",2020-06-01,"Jorge Gomez",25,"M","H","NV","G","reviewjournal.com, fox5vegas.com",2020
+"5548",2020-06-01,"Ryan Emblem Moore",36,"M","W","AR","G","nwahomepage.com, fox16.com",2020
+"5549",2020-06-02,"Robert James Lyon",65,"M","","CA","G","krcrtv.com, redding.com",2020
+"5550",2020-06-02,"Sean Monterrosa",22,"M","H","CA","B","theguardian.com, buzzfeednews.com",2020
+"5551",2020-06-02,"Tyquarn Graves",33,"M","B","NY","G","nydailynews.com, news12.com",2020
+"5552",2020-06-03,"Mary Lawrence",39,"F","W","OK","K","4029tv.com, newson6.com",2020
+"5553",2020-06-03,"Gregory W. Hallback",44,"M","W","SC","G","wjbf.com, aikenstandard.com",2020
+"5554",2020-06-03,"Eric A. Galvan",25,"M","H","TX","G","caller.com, caller.com, kiiitv.com",2020
+"5555",2020-06-03,"Scott Anderson Hutton",36,"M","W","AR","U","bentoncourier.com, fox16.com",2020
+"5556",2020-06-05,"Benjamin Ballard",42,"M","W","OK","G","koco.com, kfor.com",2020
+"5557",2020-06-05,"James Pharr",60,"M","","TX","G","kvia.com, ktsm.com",2020
+"5558",2020-06-06,"Kamal Flowers",24,"M","B","NY","G","abc7ny.com, lohud.com",2020
+"5559",2020-06-06,"Erik Salgado",22,"M","H","CA","U","kron4.com, cbslocal.com, ktvu.com",2020
+"5560",2020-06-06,"Gregory Lee Turnure",37,"M","","TN","B","wvlt.tv, wate.com",2020
+"5561",2020-06-07,"Jeffrey McClure",26,"M","","NY","T","dailyvoice.com, pix11.com, dailyvoice.com",2020
+"5562",2020-06-07,"Jarrid Hurst",35,"M","W","CA","K","nbclosangeles.com, latimes.com",2020
+"5563",2020-06-07,"Donald L. Hunter",39,"M","","MO","G","kansascity.com",2020
+"5564",2020-06-08,"Michael Seltzer",81,"M","","NM","G","ktsm.com, lcsun-news.com",2020
+"5565",2020-06-09,"Marcus James Uribe",31,"M","W","CO","G","kdvr.com, cbslocal.com",2020
+"5566",2020-06-09,"Lewis Ruffin",38,"M","B","FL","G","wftv.com, fox35orlando.com",2020
+"5567",2020-06-09,"Richard L. Mason",59,"M","","MT","G","missoulian.com, flatheadbeacon.com",2020
+"5568",2020-06-10,"Jerry M. Bethel",59,"M","","ID","G","idahostatesman.com, ktvb.com, idahostatesman.com",2020
+"5569",2020-06-10,"Phillip Dibenedetto",36,"M","","FL","G","theledger.com, patch.com",2020
+"5570",2020-06-11,"Gregorio Cruz Vanloo",28,"M","W","TN","G","wsmv.com, wjle.com",2020
+"5571",2020-06-11,"Mason James Lira",26,"M","W","CA","G","cnn.com, nytimes.com, keyt.com",2020
+"5572",2020-06-11,"Michael Thomas",62,"M","B","CA","U","cbsnews.com, thedailybeast.com, latimes.com",2020
+"5573",2020-06-12,"Rayshard Brooks",27,"M","B","GA","O","atlantaintownpaper.com, ajc.com",2020
+"5574",2020-06-12,"Caine Van Pelt",23,"M","B","IN","G","abc7chicago.com, nwitimes.com",2020
+"5575",2020-06-13,"Hannah R. Fizer",25,"F","W","MO","N","ktvo.com, komu.com, sedaliademocrat.com",2020
+"5576",2020-06-13,"William Slyter",22,"M","W","MO","G","fox4kc.com, kctv5.com, kshb.com",2020
+"5577",2020-06-13,"Anthony Angel Armenta",21,"M","H","CA","T","sbsun.com, ktla.com, sbsun.com",2020
+"5578",2020-06-15,"Nicholas Hirsh",31,"M","W","KS","G","omaha.com",2020
+"5579",2020-06-16,"Brandon Gardner",24,"M","","IL","G","suntimes.com, wgntv.com, dailyherald.com",2020
+"5580",2020-06-16,"Donald Ward",27,"M","","AZ","G","azfamily.com, fox10phoenix.com",2020
+"5581",2020-06-17,"Terron Jammal Boone",31,"M","B","CA","G","kiro7.com, foxla.com, latimes.com",2020
+"5582",2020-06-17,"Troy Willey",50,"M","","IN","G","wrtv.com, heraldbulletin.com",2020
+"5583",2020-06-17,"Keith William Brunelle",48,"M","W","MS","G","meridianstar.com, wtok.com",2020
+"5584",2020-06-17,"Jack Harry",NA,"M","W","NV","K","kolotv.com, kkoh.com",2020
+"5585",2020-06-18,"An unidentified person",38,"M","W","CO","G","9news.com, thedenverchannel.com",2020
+"5586",2020-06-18,"Kellen Fortune",19,"M","","MT","G","billingsgazette.com, ktvq.com",2020
+"5587",2020-06-18,"Andres Guardado",18,"M","H","CA","G","foxla.com, abc7.com",2020
+"5588",2020-06-18,"David Lee Jacobs",38,"M","W","CO","G","thedenverchannel.com, 9news.com",2020
+"5589",2020-06-18,"Buddy Edward Weeks",35,"M","","NC","G","wbtv.com, wsoctv.com",2020
+"5590",2020-06-19,"Henry Barnes",25,"M","W","OK","U","ktul.com, fourstateshomepage.com",2020
+"5591",2020-06-19,"Cody W. Cook",24,"M","W","NY","G","rochesterfirst.com, 13wham.com, breaking911.com",2020
+"5592",2020-06-20,"Michael Torres",35,"M","","LA","K","katc.com, kplctv.com",2020
+"5593",2020-06-21,"Brandeis Codde",19,"M","","CA","K","patch.com, abc7news.com",2020
+"5594",2020-06-22,"David Guillen",22,"M","","CO","G","kdvr.com, denverpost.com",2020
+"5595",2020-06-22,"An unidentified person",NA,"M","","CA","G","nbcpalmsprings.com, desertsun.com",2020
+"5596",2020-06-22,"An unidentified person",43,"M","B","TX","K","kvue.com, cbslocal.com",2020
+"5597",2020-06-22,"Robert Blaine Wenman",63,"M","","NV","G","ktnv.com, news3lv.com",2020
+"5598",2020-06-23,"Kevin Pulido",43,"M","H","CO","G","krdo.com, kktv.com",2020
+"5599",2020-06-23,"Matthew L. Fox",40,"M","","AK","G","adn.com, ktuu.com",2020
+"5600",2020-06-23,"Chazz Hailey",22,"M","B","TX","K","kxii.com, kten.com",2020
+"5601",2020-06-24,"An unidentified person",NA,"F","A","CA","G","foxla.com, cbslocal.com",2020
+"5602",2020-06-24,"Skyleur Young",31,"M","","CA","G","ktla.com, sbsun.com",2020
+"5603",2020-06-25,"Julie Colon",27,"F","","TX","K","fox4news.com, cbslocal.com",2020
+"5604",2020-06-25,"Robert D'Lon Harris",34,"M","","OK","U","kfor.com, krmg.com",2020
+"5605",2020-06-25,"Martin Humberto Sanchez Fregoso",37,"M","H","GA","G","wsbtv.com, ajc.com",2020
+"5606",2020-06-25,"Rasheed M. Moorman",26,"M","B","VA","G","wset.com",2020
+"5607",2020-06-26,"Sabastian Noel",27,"M","W","FL","G","fox13news.com, fox13news.com",2020
+"5608",2020-06-26,"Aaron Wesley Keller",30,"M","W","NV","G","carsonnow.org, elkodaily.com, elkodaily.com",2020
+"5609",2020-06-26,"Benjamin Paul Brooks",38,"M","W","IN","G","thestarpress.com, fox59.com",2020
+"5610",2020-06-27,"Michael Pelley",33,"M","W","KY","K","local12.com, wlwt.com",2020
+"5611",2020-06-27,"Bonnie Figueroa-Ortiz",40,"F","W","FL","G","tampabay.com, wtsp.com, fox13news.com",2020
+"5612",2020-06-27,"Leonardo Hurtado Ibarra",25,"M","H","CA","G","10news.com, cbs8.com",2020
+"5613",2020-06-27,"Mark Eberly",57,"M","W","TN","G","wate.com, wreg.com",2020
+"5614",2020-06-27,"Louis Wesley Lane",31,"M","","CA","G","redding.com, cbslocal.com, redding.com",2020
+"5615",2020-06-27,"Aloysius Keaton",58,"M","","AR","K","thv11.com, fox16.com",2020
+"5616",2020-06-28,"James Tober",68,"M","","OH","G","daytondailynews.com, whio.com, daytondailynews.com",2020
+"5617",2020-06-29,"John Parks",57,"M","W","KY","U","kentucky.com, wpsdlocal6.com",2020
+"5618",2020-06-29,"Wade Russell Meisberger",48,"M","W","PA","G","theindychannel.com, pennlive.com, fox56.com",2020
+"5619",2020-06-29,"Brittany S. Teichroeb",26,"F","W","TX","G","cbs7.com, newswest9.com",2020
+"5620",2020-06-29,"Nick Costales",34,"M","H","CA","G","kmph.com, yourcentralvalley.com",2020
+"5621",2020-06-30,"Kevin Lee Catlett",62,"M","","TN","G","wjhl.com, wcyb.com",2020
+"5622",2020-06-30,"Lance A. Bowman",30,"M","W","MO","G","examiner.net, mycouriertribune.com",2020
+"5623",2020-07-01,"John Noble Snow",34,"M","W","CO","G","durangoherald.com, kob.com",2020
+"5624",2020-07-02,"Ky Johnson",31,"M","B","MO","G","kansascity.com, fox4kc.com, hayspost.com, kansascity.com",2020
+"5625",2020-07-02,"Kevan Ruffin",32,"M","B","WI","K","whbl.com, sheboyganpress.com, sheboyganpress.com, sheboyganpress.com",2020
+"5626",2020-07-03,"Doug Diamond",58,"M","","OR","G","oregonlive.com, katu.com",2020
+"5627",2020-07-04,"James Porter Garcia",28,"M","H","AZ","U","washingtonpost.com, azcentral.com",2020
+"5628",2020-07-04,"Axel Perez",17,"M","H","FL","K","firstcoastnews.com, actionnewsjax.com",2020
+"5629",2020-07-05,"An unidentified person",NA,"M","","CA","U","dailybulletin.com, abc7.com",2020
+"5630",2020-07-05,"Taylor Christian Warner",30,"M","","IN","T","nwitimes.com, wbiw.com",2020
+"5631",2020-07-05,"Rodney Liveringhouse",70,"M","","AZ","G","azfamily.com, 12news.com",2020
+"5632",2020-07-06,"Joseph W. Denton",35,"M","B","WI","G","channel3000.com, tmj4.com",2020
+"5633",2020-07-06,"Joey Hoffman",40,"M","","PA","G","wfmz.com, mcall.com, lehighvalleylive.com",2020
+"5634",2020-07-07,"Paul Eugene Armstrong",62,"M","","TN","G","wkrn.com, wrcbtv.com",2020
+"5635",2020-07-07,"Carlos Baires",36,"M","","CA","V","abc30.com, yourcentralvalley.com",2020
+"5636",2020-07-07,"An unidentified person",NA,"M","","TX","G","abc13.com, khou.com",2020
+"5637",2020-07-08,"Wade Phillips",49,"M","","SC","G","wbtw.com, wmbfnews.com, wmbfnews.com",2020
+"5638",2020-07-08,"Adam Lucas Carroll",37,"M","","MS","K","sunherald.com",2020
+"5639",2020-07-08,"Wade Protus Phillips",49,"M","W","SC","G","wmbfnews.com, myrtlebeachonline.com",2020
+"5640",2020-07-09,"Richard Lewis Price",49,"M","","CA","T","sandiegouniontribune.com, sandiegouniontribune.com",2020
+"5641",2020-07-10,"Kevin Michael Norton",60,"M","W","PA","G","sungazette.com, pennlive.com",2020
+"5642",2020-07-10,"Hakim Littleton",20,"M","B","MI","G","clickondetroit.com, freep.com",2020
+"5643",2020-07-10,"Kanavis Dujuan Glass",31,"M","","FL","G","wjhg.com, mypanhandle.com",2020
+"5644",2020-07-11,"Antonio Mancinone",23,"M","","CO","G","kktv.com, 9news.com",2020
+"5645",2020-07-11,"Michael Joseph Culbertson",26,"M","","SC","G","wspa.com, wyff4.com",2020
+"5646",2020-07-12,"Marcos Reyes",28,"M","","GA","G","wsbtv.com, 11alive.com",2020
+"5647",2020-07-12,"Terena Nicole Thurman",36,"F","W","OH","V","dayton247now.com, wdtn.com, whio.com",2020
+"5648",2020-07-12,"Rodney Morrison",47,"M","","GA","K","walb.com, ajc.com",2020
+"5649",2020-07-12,"Marcos Reyes",28,"M","","GA","G","11alive.com, fox5atlanta.com",2020
+"5650",2020-07-13,"Glenn Farse Young",59,"M","","TN","G","wate.com, wbir.com",2020
+"5651",2020-07-13,"Arlan Kaleb Schultz",31,"M","W","MN","G","cbslocal.com, twincities.com",2020
+"5652",2020-07-14,"Sean Ernest Ruis",43,"M","W","MI","K","wilx.com, siouxlandproud.com",2020
+"5653",2020-07-14,"Vincent Demario Truitt",17,"M","","GA","G","ajc.com, 11alive.com, 11alive.com",2020
+"5654",2020-07-14,"Cristhian Eliud Ramos-Murillo",32,"M","H","TN","G","wbir.com, wate.com, wate.com",2020
+"5655",2020-07-14,"Julio Jaramillo",28,"M","H","NM","G","demingheadlight.com, krqe.com",2020
+"5656",2020-07-14,"Timothy O'Shea",24,"M","","NJ","T","patch.com, nj.com",2020
+"5657",2020-07-15,"Antwane Burrise",39,"M","","CA","V","kcra.com, abc10.com, cbslocal.com",2020
+"5658",2020-07-15,"Tyler Blevens",22,"M","W","KY","G","wdrb.com, wdrb.com",2020
+"5659",2020-07-16,"Aaron Olsvik",23,"M","W","WA","K","kiro7.com, mynorthwest.com, lmtonline.com",2020
+"5660",2020-07-16,"An unidentified person",60,"M","W","FL","G","winknews.com, news-press.com",2020
+"5661",2020-07-16,"Chase Roundtree",33,"M","W","TX","G","everythinglubbock.com, newschannel6now.com, bigcountryhomepage.com",2020
+"5662",2020-07-17,"David Martin",28,"M","","CO","G","cbslocal.com, westernslopenow.com",2020
+"5663",2020-07-17,"Malcolm Comeaux",24,"M","","TX","T","abc13.com, lmtonline.com, chron.com",2020
+"5664",2020-07-18,"Darius Washington",24,"M","B","IL","G","chicagotribune.com, abc7chicago.com, nwitimes.com",2020
+"5665",2020-07-19,"Grant King",35,"M","","IN","G","indystar.com, indystar.com",2020
+"5666",2020-07-20,"Vincent Harris",51,"M","B","LA","G","theadvocate.com, wbrz.com, wafb.com, wafb.com",2020
+"5667",2020-07-20,"David Angulo",33,"M","","CA","G","10news.com, cbs8.com",2020
+"5668",2020-07-21,"Kyle Elrod",30,"M","W","OK","G","kfor.com, news9.com, newson6.com",2020
+"5669",2020-07-21,"Southern Jeremy",22,"M","B","CA","G","cbslocal.com, sacbee.com",2020
+"5670",2020-07-22,"Deborah White",49,"F","","FL","G","tampabay.com, wfla.com, tampabay.com",2020
+"5671",2020-07-22,"Scott M. Kontowicz",37,"M","W","WI","G","jsonline.com, patch.com",2020
+"5672",2020-07-23,"An unidentified person",NA,"M","","MI","G","detroitnews.com, detroitnews.com",2020
+"5673",2020-07-23,"John Karl Sieger",51,"M","W","CA","G","krcrtv.com, kiem-tv.com",2020
+"5674",2020-07-24,"An unidentified person",NA,"M","","CA","T","fox40.com",2020
+"5675",2020-07-24,"An unidentified person",NA,"M","","FL","V","cbslocal.com, wsvn.com",2020
+"5676",2020-07-24,"David Earl Brooks",45,"M","B","NC","G","wral.com, abc11.com",2020
+"5677",2020-07-24,"Dane Norris",41,"M","","TX","G","abc13.com, baytownsun.com",2020
+"5678",2020-07-25,"Christopher Poor",49,"M","W","OK","B","kfor.com, koco.com",2020
+"5679",2020-07-25,"Andrew Jacob Preece",34,"M","W","UT","K","sltrib.com, kutv.com, fox13now.com",2020
+"5680",2020-07-26,"Samuel Solomon Cochran",22,"M","","NC","K","myfox8.com, wfmynews2.com",2020
+"5681",2020-07-27,"David Earl Brooks",45,"M","B","NC","G","wral.com, ncadvertiser.com",2020
+"5682",2020-07-27,"Julio Caesar Virula",26,"M","H","IN","G","wrtv.com, indystar.com",2020
+"5683",2020-07-28,"Jacob Wilbur Wright",32,"M","","NC","G","wyff4.com, wspa.com",2020
+"5684",2020-07-28,"Howard Owens",47,"M","","FL","G","fox13news.com, mysuncoast.com",2020
+"5685",2020-07-29,"Giovanni Cedano-Amaro",21,"M","","NV","K","fox5vegas.com, news3lv.com",2020
+"5686",2020-07-29,"An unidentified person",NA,"M","","WA","K","kiro7.com, seattletimes.com",2020
+"5687",2020-07-29,"Winston Joseph Latour",37,"M","","LA","G","kplctv.com, kfdm.com",2020
+"5688",2020-07-29,"Jason Matthew Henke",42,"M","","AZ","G","kdminer.com, kdminer.com",2020
+"5689",2020-07-30,"Gary Hardy",41,"M","","CA","K","cbslocal.com, championnewspapers.com",2020
+"5690",2020-07-30,"Gabriel Salinas",39,"M","H","TX","G","cbslocal.com, themonitor.com",2020
+"5691",2020-07-30,"Darrien Walker",28,"M","B","MI","K","detroitnews.com, fox2detroit.com, fox2detroit.com",2020
+"5692",2020-07-31,"Ronald Pope",49,"M","","TN","G","wate.com, manisteenews.com",2020
+"5693",2020-07-31,"William Sears",NA,"M","","OH","K","usnews.com, cleveland.com",2020
+"5694",2020-08-01,"An unidentified person",56,"M","","FL","G","nbcmiami.com, cbs12.com",2020
+"5695",2020-08-02,"Christopher Kimmons Craven",38,"M","W","NC","G","wsoctv.com, wral.com, wcnc.com",2020
+"5696",2020-08-02,"Cyrus D. Carpenter",17,"M","W","UT","G","kutv.com, abc4.com",2020
+"5697",2020-08-02,"Adrean Stephenson",63,"F","W","FL","K","heraldtribune.com, mysuncoast.com, mysuncoast.com",2020
+"5698",2020-08-03,"Jesse Vanloozen",34,"M","W","CA","K","cbslocal.com, ktla.com",2020
+"5699",2020-08-04,"Andrew S. Gwynn",30,"M","W","UT","G","kutv.com, ksl.com",2020
+"5700",2020-08-04,"David Lee Rigg",44,"M","W","OH","G","fox8.com, wfmj.com, tribtoday.com",2020
+"5701",2020-08-04,"Melissa Halda",39,"F","","IA","K","apnews.com, kjan.com",2020
+"5702",2020-08-04,"David James Pruitte",36,"M","W","WA","U","komonews.com, kitsapsun.com, kitsapsun.com",2020
+"5703",2020-08-04,"Christopher Lawings",67,"M","","SC","G","abcnews4.com, live5news.com",2020
+"5704",2020-08-05,"Roberto Hernandez",29,"M","H","TX","G","runnelscountyregister.com, gosanangelo.com",2020
+"5705",2020-08-06,"Amir Johnson",30,"M","B","NJ","","news12.com, 6abc.com",2020
+"5706",2020-08-06,"Vasquinho Bettencourt",35,"M","H","CA","G","patch.com, cbslocal.com, eastbaytimes.com",2020
+"5707",2020-08-06,"An unidentified person",44,"M","","CA","B","ktla.com, cbslocal.com",2020
+"5708",2020-08-07,"Jeffrey Scott Haarsma",55,"M","W","FL","N","wtsp.com, tampabay.com",2020
+"5709",2020-08-07,"An unidentified person",NA,"M","","CA","K","kesq.com, ktla.com",2020
+"5710",2020-08-07,"Salaythis Melvin",22,"M","B","FL","G","orlandosentinel.com, clickorlando.com, fox35orlando.com",2020
+"5711",2020-08-07,"Nicholas Kocolis",51,"M","W","FL","G","baynews9.com, tampabay.com",2020
+"5712",2020-08-07,"Anthony Budduke",26,"M","","MO","G","stltoday.com, apnews.com",2020
+"5713",2020-08-07,"Julian Edward Roosevelt Thompson",60,"M","B","GA","N","fox23.com, fox23.com",2020
+"5714",2020-08-08,"Terry Treleven",45,"M","W","WI","K","kare11.com, weau.com, weau.com",2020
+"5715",2020-08-08,"Jonathan Randell",25,"M","W","OK","K","tulsaworld.com, ktul.com, newson6.com",2020
+"5716",2020-08-08,"Aaron Michael Griffin",21,"M","W","UT","G","ksltv.com, sltrib.com, deseret.com",2020
+"5717",2020-08-08,"Jonathan Jefferson",34,"M","B","LA","K","shreveporttimes.com, bossiernow.com, ktbs.com, ksla.com",2020
+"5718",2020-08-08,"Matthew Hilbelink",39,"M","W","UT","G","gephardtdaily.com, sltrib.com",2020
+"5719",2020-08-09,"Ryan Shane Hinojo",26,"M","H","TX","G","kfoxtv.com, elpasotexas.gov",2020
+"5720",2020-08-09,"Earl Barton",42,"M","W","OK","K","kjrh.com, ktul.com",2020
+"5721",2020-08-09,"Donald Anderson",39,"M","","WA","G","msn.com, thenewstribune.com",2020
+"5722",2020-08-10,"Joshua Squires",32,"M","W","NV","G","reviewjournal.com, lasvegassun.com",2020
+"5723",2020-08-10,"Jose Vallejos",48,"M","H","NM","G","krqe.com, kob.com",2020
+"5724",2020-08-10,"Bobby Christopher Minor",35,"M","W","NC","G","abc11.com, wral.com",2020
+"5725",2020-08-10,"Kenneth Reiss",50,"M","W","NM","G","krqe.com, kob.com, abqjournal.com",2020
+"5726",2020-08-10,"Americo Reyes",40,"M","H","NE","K","theindependent.com, ketv.com",2020
+"5727",2020-08-11,"Lyana Gilmore",48,"F","H","CO","G","gazette.com, koaa.com, chieftain.com",2020
+"5728",2020-08-11,"Paul Monroe Bryan",48,"M","W","OK","V","newson6.com, ktul.com",2020
+"5729",2020-08-13,"Derick Manuel Bonilla",39,"M","H","AZ","G","azfamily.com, kgun9.com, azfamily.com",2020
+"5730",2020-08-14,"Joshua Gay",NA,"M","W","FL","G","wsvn.com, cbslocal.com",2020
+"5731",2020-08-14,"An unidentified person",NA,"M","","FL","K","wsvn.com, local10.com",2020
+"5732",2020-08-15,"Fred John Henry Arcera",41,"M","W","TN","K","newstalk987.com, wate.com",2020
+"5733",2020-08-15,"Anthony McClain",32,"M","B","CA","G","abc7.com, foxla.com, cbslocal.com",2020
+"5734",2020-08-15,"Rick Lee Miller",51,"M","W","FL","G","clickorlando.com",2020
+"5735",2020-08-15,"An unidentified person",NA,"M","","CO","K","denverite.com, kdvr.com",2020
+"5736",2020-08-15,"Robert Maike",52,"M","W","GA","G","cbslocal.com, valdostatoday.com",2020
+"5737",2020-08-16,"Thomas Moles",35,"M","W","TN","V","wkrn.com, newschannel5.com, williamsonsource.com",2020
+"5738",2020-08-16,"Jose Manuel Castro",27,"M","H","CA","K","abc30.com, kmph.com",2020
+"5739",2020-08-16,"Jeffrey Hubbard",67,"M","W","NV","G","reviewjournal.com, 8newsnow.com",2020
+"5740",2020-08-16,"An unidentified person",30,"M","","CA","G","pe.com, sbsun.com",2020
+"5741",2020-08-17,"Marco Antonio Sigala",27,"M","H","TX","G","kens5.com, progresstimes.net",2020
+"5742",2020-08-17,"Everardo Gonzalez Santana",65,"M","H","CA","K","bakersfieldnow.com, turnto23.com, turnto23.com",2020
+"5743",2020-08-17,"Santos Anthony Villegas",36,"M","H","CA","G","cbslocal.com, sbsun.com",2020
+"5744",2020-08-17,"Jimmy Ferrer",35,"M","W","CA","O","vvng.com, vvdailypress.com",2020
+"5745",2020-08-18,"Adrian Jason Roberts",37,"M","B","NC","K","abc11.com, wral.com",2020
+"5746",2020-08-18,"Trevor Edwards",37,"M","W","NC","U","witn.com, jdnews.com",2020
+"5747",2020-08-18,"Keith Allen Fileger",34,"M","W","FL","","wtnh.com, wtsp.com",2020
+"5748",2020-08-19,"Jack Lamar Harris",60,"M","W","GA","G","ajc.com, northwestgeorgianews.com",2020
+"5749",2020-08-19,"Ronald Stuart Chipman",39,"M","H","AZ","G","azcentral.com, 12news.com",2020
+"5750",2020-08-19,"Samuel Mata",21,"M","H","TX","G","foxnewssouthtexas.com, valleymorningstar.com, themonitor.com",2020
+"5751",2020-08-19,"Erik Jon Perez",NA,"M","","TX","G","khou.com, click2houston.com",2020
+"5752",2020-08-20,"Nathan Harrington",43,"M","W","TX","G","kvue.com, kxan.com",2020
+"5753",2020-08-20,"Jeffrey Wratten",37,"M","W","AR","G","arkansasonline.com, fox16.com, kark.com",2020
+"5754",2020-08-20,"An unidentified person",NA,"M","","FL","G","tbreporter.com, wfla.com",2020
+"5755",2020-08-21,"Hasani Best",39,"M","B","NJ","K","dailyvoice.com, app.com",2020
+"5756",2020-08-21,"Scott Huffman",42,"M","W","CA","G","kget.com, lompocrecord.com",2020
+"5757",2020-08-21,"Trayford Pellerin",31,"M","B","LA","K","upi.com, theadvocate.com, nytimes.com",2020
+"5758",2020-08-22,"Christopher Walker",29,"M","B","CA","G","latimes.com, sacbee.com",2020
+"5759",2020-08-22,"Brandon R. Laducer",35,"M","N","ND","U","kfyrtv.com, minotdailynews.com",2020
+"5760",2020-08-23,"Gearil Leonard Williams",47,"M","B","GA","K","firstcoastnews.com, news4jax.com",2020
+"5761",2020-08-24,"David Sanchez",NA,"M","","NM","G","koat.com, kob.com, krqe.com",2020
+"5762",2020-08-24,"Corey Lee Cutler",31,"M","W","NC","G","wbtv.com, gastongazette.com",2020
+"5763",2020-08-25,"Charles Garland",30,"M","W","KY","G","wkyt.com, tribtown.com",2020
+"5764",2020-08-25,"Casper Brown",47,"M","W","MI","G","battlecreekenquirer.com",2020
+"5765",2020-08-25,"Mark Dawson",39,"M","","CA","K","ktla.com, dailybulletin.com",2020
+"5766",2020-08-25,"Damian Lamar Daniels",31,"M","B","TX","G","ksat.com, sanangelolive.com, sanantonioreport.org",2020
+"5767",2020-08-26,"Joseph R. Middleton",41,"M","W","KY","G","wkyt.com, wbir.com",2020
+"5768",2020-08-26,"An unidentified person",17,"M","","AZ","G","tucson.com, kold.com",2020
+"5769",2020-08-26,"Julius Kehyei",29,"M","B","TX","G","abc13.com, houstonchronicle.com",2020
+"5770",2020-08-27,"Damien Evans",38,"M","W","UT","G","abc4.com, fox13now.com",2020
+"5771",2020-08-28,"Julio Cesar Moran-Ruiz",36,"M","H","MD","V","wusa9.com, wtop.com",2020
+"5772",2020-08-29,"Kurt Phelps",52,"M","W","CO","G","thedenverchannel.com, gjsentinel.com",2020
+"5773",2020-08-29,"An unidentified person",43,"M","","MI","G","fox2detroit.com, detroitnews.com",2020
+"5774",2020-08-29,"Michael Anthony Harris",44,"M","B","FL","G","news-journalonline.com, clickorlando.com",2020
+"5775",2020-08-29,"Jesse David Nava",25,"M","H","CA","K","cbslocal.com, nbclosangeles.com",2020
+"5776",2020-08-30,"Nikolas Frazier",26,"M","","CA","G","kmph.com, abc30.com, abc30.com, abc30.com",2020
+"5777",2020-08-31,"Dijon Kizzee",29,"M","B","CA","G","nbclosangeles.com, abc7.com",2020
+"5778",2020-08-31,"Marco Antonio Benito",36,"M","H","NM","U","the-journal.com, durangoherald.com",2020
+"5779",2020-08-31,"Arthur Zalman Ferrel",58,"M","","ID","G","idahostatesman.com, idahopress.com",2020
+"5780",2020-08-31,"Miguel Vega",26,"M","H","IL","G","suntimes.com, nbcchicago.com",2020
+"5781",2020-09-01,"Albert Wheeler",50,"M","W","CA","G","kcra.com, cbslocal.com",2020
+"5782",2020-09-02,"Deon Kay",18,"M","B","DC","G","cbslocal.com, washingtonpost.com",2020
+"5783",2020-09-03,"Michael Forest Reinoehl",48,"M","W","WA","G","nytimes.com, wsj.com",2020
+"5784",2020-09-03,"Fernando Napoles",37,"M","W","CA","G","yahoo.com, turnto23.com, kget.com",2020
+"5785",2020-09-03,"Timothy Clevenger",53,"M","W","IA","K","kwqc.com, ourquadcities.com",2020
+"5786",2020-09-04,"Steve D. Smith",33,"M","B","NY","G","syracuse.com, syracuse.com",2020
+"5787",2020-09-04,"Joshua Beedie",38,"M","W","CA","G","vvng.com, sbsun.com, vvdailypress.com",2020
+"5788",2020-09-05,"Andrew Blowers",22,"M","W","MI","V","battlecreekenquirer.com, mlive.com",2020
+"5789",2020-09-05,"Major Carvel Baldwin",61,"M","B","TX","K","ktsa.com, mysanantonio.com",2020
+"5790",2020-09-05,"Shaon Jermy Ochea Walker",34,"M","","IL","K","cnn.com, suntimes.com",2020
+"5791",2020-09-06,"Seth Holliday",40,"M","","NV","K","reviewjournal.com, reviewjournal.com, reviewjournal.com, reviewjournal.com",2020
+"5792",2020-09-06,"Refugio Reynaldo Olivo",49,"M","","VA","K","13newsnow.com, wtkr.com",2020
+"5793",2020-09-06,"Verlon Billy Stiles",54,"M","","NC","K","wspa.com, foxcarolina.com",2020
+"5794",2020-09-07,"Jeffrey Meyer",51,"M","W","IA","G","kwwl.com, khqa.com",2020
+"5795",2020-09-08,"Steve Gilbert",33,"M","B","FL","G","sun-sentinel.com, wptv.com, palmbeachpost.com",2020
+"5796",2020-09-08,"Matthew Patton",37,"M","","NV","K","reviewjournal.com, radio.com, fox5vegas.com",2020
+"5797",2020-09-09,"Chad Busby",47,"M","W","KY","G","wpsdlocal6.com, wpsdlocal6.com",2020
+"5798",2020-09-09,"Antonio Black Bear",41,"M","N","CO","G","cbslocal.com, denverpost.com, cbslocal.com",2020
+"5799",2020-09-10,"Robert Samuel Craig Lusk",18,"M","","GA","G","fox5atlanta.com, wsav.com",2020
+"5800",2020-09-10,"Robert Ray Doss",NA,"M","W","NC","G","nbc12.com, hendersonvillelightning.com",2020
+"5801",2020-09-10,"Jonathan Darsaw",49,"M","B","TN","G","fox17.com, wreg.com",2020
+"5802",2020-09-10,"An unidentified person",NA,"M","","CA","G","latimes.com, cbslocal.com",2020
+"5803",2020-09-10,"Glenn Alvin Eldridge",48,"M","W","NC","G","wbir.com, abc11.com, charlotteobserver.com",2020
+"5804",2020-09-11,"Joshua Clayton Brant",31,"M","","WA","G","spokesman.com, khq.com",2020
+"5805",2020-09-12,"Robert Coleman",88,"M","B","CA","G","kcra.com, cbslocal.com, cbslocal.com",2020
+"5806",2020-09-12,"Christopher Escobedo",NA,"M","H","CO","G","cbslocal.com, 9news.com",2020
+"5807",2020-09-13,"Ricardo Munoz",27,"M","H","PA","K","abc27.com, local21news.com, lancasteronline.com, washingtonpost.com",2020
+"5808",2020-09-15,"Clay A. Reynolds",27,"M","W","UT","G","ksl.com, fox13now.com",2020
+"5809",2020-09-15,"An unidentified person",NA,"M","W","CO","G","9news.com, denverpost.com",2020
+"5810",2020-09-15,"Darrell Zemault",55,"M","B","TX","G","ksat.com, mysanantonio.com",2020
+"5811",2020-09-17,"Nicholas Morales-Bessannia",37,"M","","FL","B","nbc-2.com, fox4now.com",2020
+"5812",2020-09-18,"Scott Heisler",45,"M","W","IA","U","kcci.com, desmoinesregister.com",2020
+"5813",2020-09-18,"An unidentified person",39,"M","","CA","O","fontanaheraldnews.com, abc7.com",2020
+"5814",2020-09-18,"An unidentified person",NA,"M","A","CA","U","ocregister.com, cbslocal.com",2020
+"5815",2020-09-18,"Rickey Wayne Riney",41,"M","W","TX","U","oaoa.com, newswest9.com",2020
+"5816",2020-09-18,"Matthew Lyvon Paul",46,"M","W","CO","G","thedenverchannel.com, 9news.com",2020
+"5817",2020-09-18,"Matthew C. Knowlden",22,"M","W","UT","G","abc4.com, kslnewsradio.com",2020
+"5818",2020-09-19,"Charles Eric Moses",33,"M","B","GA","G","thebrunswicknews.com, wtoc.com",2020
+"5819",2020-09-19,"Josh Sarrett",32,"M","W","WA","U","auburnexaminer.com, king5.com",2020
+"5820",2020-09-19,"Derek Cooper",52,"M","B","GA","G","fox5atlanta.com, ajc.com",2020
+"5821",2020-09-20,"Andrea Churna",39,"F","W","WA","G","komonews.com, kiro7.com",2020
+"5822",2020-09-21,"Patches Holmes",26,"M","","MO","G","ksdk.com, kmov.com",2020
+"5823",2020-09-21,"An unidentified person",NA,"M","","AZ","K","azfamily.com, azcentral.com",2020
+"5824",2020-09-21,"Dearian Bell",28,"M","B","GA","G","ajc.com, 11alive.com",2020
+"5825",2020-09-21,"Julia Anne Moss",40,"F","W","GA","K","ajc.com, onlineathens.com",2020
+"5826",2020-09-22,"Jeffrey Ryan Blunk",30,"M","W","IL","G","ourquadcities.com, pjstar.com",2020
+"5827",2020-09-22,"Victor Sanchez",44,"M","H","TX","G","mysanantonio.com, ksat.com",2020
+"5828",2020-09-23,"Kurt Andras Reinhold",42,"M","B","CA","U","cbslocal.com, foxla.com",2020
+"5829",2020-09-24,"Christopher Michael Straub",38,"M","W","CA","G","pasoroblesdailynews.com, ksby.com, sanluisobispo.com",2020
+"5830",2020-09-24,"Randy Fedorchuk",66,"M","","CA","G","kesq.com, desertsun.com",2020
+"5831",2020-09-24,"Jessie A. Hudnall",29,"M","","LA","G","knoe.com, myarklamiss.com",2020
+"5832",2020-09-24,"Erik Mahoney",43,"M","W","WA","G","cheneyfreepress.com",2020
+"5833",2020-09-24,"Matthew Nocerino",30,"M","W","FL","G","wfla.com, wtsp.com",2020
+"5834",2020-09-25,"Angel Benitez",21,"M","H","AZ","U","kgun9.com, azfamily.com",2020
+"5835",2020-09-27,"James Lucachevitz",43,"M","W","MI","K","detroitnews.com, mlive.com",2020
+"5836",2020-09-28,"Willie Shropshire",57,"M","B","LA","G","fox8live.com, fox8live.com",2020
+"5837",2020-09-29,"Kirby Joseph Michael Hengel",27,"M","W","MN","G","fox9.com, newsbreak.com",2020
+"5838",2020-09-30,"Demarco Riley",27,"M","","GA","U","ajc.com, 11alive.com",2020
+"5839",2020-09-30,"Jarred Kemp",41,"M","","KS","G","hayspost.com, wibw.com",2020
+"5840",2020-10-01,"An unidentified person",NA,"M","","WV","G","wvva.com, wvnstv.com, wvmetronews.com",2020
+"5841",2020-10-02,"James Edward Baker",38,"M","W","FL","G","wctv.tv, tallahassee.com",2020
+"5842",2020-10-02,"Mickel Erich Lewis",39,"M","","CA","U","turnto23.com, kget.com",2020
+"5843",2020-10-02,"Justin Lee Aguilar-Tofte",33,"M","H","WA","G","msn.com, kbnd.com",2020
+"5844",2020-10-02,"Jason Rodriguez",46,"M","H","CA","K","abc30.com, fresnobee.com",2020
+"5845",2020-10-03,"John Derek Aycoth",20,"M","","SC","G","live5news.com, wpde.com",2020
+"5846",2020-10-03,"Jonathan Price",32,"M","B","TX","U","fox4news.com, kltv.com",2020
+"5847",2020-10-04,"Christopher Ulmer",30,"M","","CA","U","nbcsandiego.com, cbslocal.com",2020
+"5848",2020-10-04,"Andrew A. Williams",41,"M","","WA","O","opb.org, kptv.com, clarkcountytoday.com",2020
+"5849",2020-10-04,"Diego Eguino-Alcala",27,"M","H","NM","G","cbs4local.com",2020
+"5850",2020-10-05,"Juan Adrian Garcia",47,"M","H","CA","N","napavalleyregister.com, cbslocal.com",2020
+"5851",2020-10-06,"Chester T. McDonald",44,"M","","KY","G","wtvq.com, lex18.com, whas11.com",2020
+"5852",2020-10-06,"John Hare",62,"M","W","NC","G","cbs17.com, wral.com",2020
+"5853",2020-10-06,"Crystal Renee Starling-McClinton",48,"F","W","FL","G","jacksonville.com, news4jax.com",2020
+"5854",2020-10-08,"Stanley Cochran",29,"M","B","PA","G","cbslocal.com, yahoo.com, 6abc.com",2020
+"5855",2020-10-08,"Tyran Dent",24,"M","B","NY","G","abc7ny.com, nydailynews.com",2020
+"5856",2020-10-08,"Justin Caldwell",47,"M","W","FL","G","wflx.com, tcpalm.com",2020
+"5857",2020-10-09,"Sylvia Veronica Kirchner",41,"F","W","SC","G","abcnews4.com, wmbfnews.com",2020
+"5858",2020-10-09,"Anthony Michael Legato",25,"M","W","MN","N","mprnews.org, startribune.com",2020
+"5859",2020-10-09,"Kalun Purucker",29,"M","W","KS","G","wibw.com, ksn.com, salinapost.com",2020
+"5860",2020-10-09,"Ariel Esau Lujan",29,"M","H","TX","G","click2houston.com, houstonchronicle.com",2020
+"5861",2020-10-10,"Cesar Vargas",21,"M","H","CA","K","cbslocal.com, sfexaminer.com",2020
+"5862",2020-10-12,"Cole F. Stump",29,"M","N","MT","G","billingsgazette.com, billingsgazette.com, billingsgazette.com",2020
+"5863",2020-10-12,"Anthony Jones",24,"M","","TN","G","jacksonsun.com, wvlt.tv, fox13memphis.com",2020
+"5864",2020-10-13,"Jose Marcos Ramirez",27,"M","H","CA","K","bakersfieldnow.com, kget.com, kget.com",2020
+"5865",2020-10-14,"An unidentified person",NA,"M","","CA","G","mynewsla.com, nbclosangeles.com",2020
+"5866",2020-10-14,"Yoel Arnaldo Mejia Santel",38,"M","H","FL","K","wftv.com, wfla.com",2020
+"5867",2020-10-14,"An unidentified person",NA,"M","","CA","G","go.com, cbslocal.com",2020
+"5868",2020-10-14,"Steven Vest",30,"M","W","CA","K","krcrtv.com, actionnewsnow.com",2020
+"5869",2020-10-14,"An unidentified person",NA,"M","","OK","K","newson6.com",2020
+"5870",2020-10-16,"An unidentified person",NA,"M","","IA","G","siouxlandproud.com, pathofex.com",2020
+"5871",2020-10-16,"Alberto Rivas",57,"M","","AL","G","waaytv.com, whnt.com",2020
+"5872",2020-10-16,"Fred Williams",25,"M","B","CA","G","abc7.com, cbslocal.com, ktla.com",2020
+"5873",2020-10-16,"Akbar Muhammad Eaddy",27,"M","B","IL","G","qconline.com, ourquadcities.com",2020
+"5874",2020-10-17,"An unidentified person",NA,"M","","NM","G","krqe.com, koat.com",2020
+"5875",2020-10-17,"An unidentified person",NA,"M","","KY","","kentucky.com, 14news.com, 14news.com",2020
+"5876",2020-10-17,"Paul Baily",21,"M","","WV","U","wtap.com, wchstv.com",2020
+"5877",2020-10-18,"An unidentified person",NA,"M","","FL","G","wsvn.com, nbcmiami.com",2020
+"5878",2020-10-18,"Gregory Putnik",32,"M","W","CA","G","kmph.com, abc30.com",2020
+"5879",2020-10-18,"Tutuila Pine Koonwaiyou",37,"M","","UT","G","deseret.com, abc4.com",2020
+"5880",2020-10-19,"An unidentified person",43,"M","","WI","G","wisn.com, jsonline.com",2020
+"5881",2020-10-19,"Paul Sulkowski",46,"M","","NY","K","newsday.com, dailyvoice.com",2020
+"5882",2020-10-19,"An unidentified person",NA,"M","","MD","G","fredericknewspost.com, cbslocal.com",2020

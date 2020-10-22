@@ -1,5 +1,5 @@
-Webscraping and analysis homicide and police killing data
----------------------------------------------------------
+Webscraping and analysis of homicide and police killing data
+------------------------------------------------------------
 
 The goal of killedbypolice is to make readily available the data
 collected by
@@ -32,40 +32,11 @@ webscraping tools of 2020 and by updating with data with records from
 How to use
 ----------
 
-Start with (1) scrapingdata.Rmd, which teaches you - how to scrape
-tables of data from the internet - create charts - create maps (hexbins,
-grids) from the data This script takes killedbypolice.net database as
-input
+Start with (1) scraping.Rmd, which teaches you - how to scrape tables of
+data from the internet - create charts - create maps (hexbins, grids)
+from the data This script takes killedbypolice.net database as input
 
-Next, you can practice on (2) homicidescraping.Rmd, which has a similar
+Next, you can develop further (2) homicides.Rmd, which has a similar
 workflow, but surveys FBI and wikipedia data on homicide incidence per
 state in the US for the last decade. This script is unfinished and needs
-extra work.
-
-Some explorations
------------------
-
-Here are some explorations of the data:
-
-The most common age to be killed by police is in the late twenties and
-early thirties, and this has not changed much over time.
-
-``` r
-library(ggplot2)
-library(ggridges)
-
-data %>% 
-  filter(Gender %in% c("F", "M", "T")) %>% 
-  filter(!is.na(Year)) %>% 
-  ggplot(aes(x = Age,
-             y = factor(Year),
-             fill = Gender)) +
-  geom_density_ridges(alpha = 0.5, 
-                      scale = 0.9)  +
-  theme_ridges(font_size = 10) +
-  scale_x_continuous(breaks = seq(0, 100, 10),
-                     labels = seq(0, 100, 10)) +
-  xlab("Age at death (years)") +
-  ylab("Year") +
-  theme(axis.title = element_text(size = 14))
-```
+TLC.

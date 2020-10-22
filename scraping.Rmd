@@ -1,7 +1,7 @@
 ---
 title: "Police killing data scraping"
 author: "Adela Sobotkova"
-date: "20 July 2020"
+date: "20 July 2020, updated `r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
 
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 I want to be able to analyse the data on police shootings from 2013-2020 (july 2020) that are nicely collated on summarised on https://killedbypolice.net/.
 
 # Challenge
-The data resides in the HTML table that has notoriously messy headers and tags. Look and weep:
+The data resides in a HTML table that has notoriously messy headers and tags. There is one table for each individual year. Look and weep:
 !["Killed by police website with html source"](./readme-figs/Killed_html.png)
 
 But fear not! There’s nothing that R can’t fix in a blink of an eye. And here’s how:
@@ -24,11 +24,11 @@ Great guidelines to finding the right tags are in [rvest tutorial on Youtube](ht
 # Solution
 First, load a handful of classic R packages:
 
-{rvest} for web-scraping
-{dplyr} for data-wrangling
-{tidyr} for data transformation
-{stringr} for string manipulation
-{janitor} for clean headers that your OCD will love you for
+- `rvest` for web-scraping
+- `dplyr` for data-wrangling
+- `tidyr` for data transformation
+- `stringr` for string manipulation
+- `janitor` for clean headers that your OCD will love you for
 
 
 ```{r libraries}
@@ -47,118 +47,153 @@ Next, learn how scrape the content of the website and extract the HTML table:
 url <- "https://killedbypolice.net/kbp2020"
 # scrape the website
 url_html <- read_html(url)
+```
 
+Option 1: you can extract the individual rows from the HTML table by using the tag <tr> as argument in the html_nodes() function. BUT this makes each row into an element in a character vector, which would require extra cleaning, specifically splitting by newline \n.
 
-# Option 1 extract the HTML table individual row tags <tr> >> BUT this straightjackets each row into an element in a character vector, which would require extra cleaning
+```{r , option1, eval=FALSE}
 whole_table <- url_html %>% 
  html_nodes("tr") %>%
  html_text(trim = FALSE) 
+head(whole_table)
+```
 
-#2 extract the HTML table individual datapoint tags <td>  >> BUT this creates a character element out of each table cell, which would require extra cleaning
+Option 2: you extract individual cells from the HTML table by using the tag <td> as an argument in the html_nodes() function.  BUT this creates a character element out of each table cell, which would require extra wrangling; specifically concatenating by timestamp...
+
+```{r, option2}
 whole_table <- url_html %>% 
  html_nodes("td") %>%
  html_text(trim = FALSE) 
+head(whole_table)
+```
 
-# extract the HTML table through the <table> tag >> this creates a list instead of dataframe, but we can unlist a list and coerce it into a dataframe, so vaersgo!
+
+Option 3 is the winner, at least for me. It let's us extract the whole HTML table through the <table> tag. Well, to be precise it loads the html table into a list not a  dataframe, but we can unlist the resulting list and coerce it into a dataframe, and that's less work than options 1 and 2 above, so vaersgo!
+
+```{r, option3}
 whole_table <- url_html %>% 
  html_nodes("table") %>%
  html_table()  #str(whole_table) turns out to be a list
 
-new_table <- do.call(cbind,unlist(whole_table, recursive = FALSE)) # we unlist and combine the individual elements as columns, following https://stackoverflow.com/questions/16300344/how-to-flatten-a-list-of-lists
-head(new_table) # ok, looks good, too bad it took 2 hours
-
-
-# https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame
 ```
+
+If you run a `head()` on the resulting `whole_table`, you will see that it is a list with unnamed elements marked by numbers in double brackets, such as [[1]]. 
+What is a list? A table-like looking structure that needs one more transformation (in this case, unlisting) before it becomes a useful dataframe. 
+
+```{r htmltodf}
+new_table <- do.call(cbind,unlist(whole_table, recursive = FALSE)) 
+head(new_table) # ok, looks good, too bad it took 2 hours
+```
+The line above takes the downloaded html table, unlists it and and then combine the individual elements as columns. 
+It may look ugly, but that's what happens when there is a structure you are not used to routinely handle. It took me 2 hours to figure out how to best handle the list.
+
+If you want to read more about handling lists, here are two good stackoverflow threads:  https://stackoverflow.com/questions/16300344/how-to-flatten-a-list-of-lists
+https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame
+
+Now we are done with the scraping and have the data from one database sheet in a dataframe. All columns are character class, but we can handle datatype conversion later, once we have all the data and are ready for analysis. 
+
 
 ## Automate the scraping!
 
-Now, lets write a function to read the tables for all the sequential websites
-```{r}
+Now, lets combine the above steps into a single function that we repeat/loop in order to read all the tables for all the sequential websites.
 
-# First create the function to scrape tables
+First, we create a single function to scrape a table from one annual page
 
-scrape_police_death <- function(website){
+```{r scrape function}
+scrape_police_kill <- function(website){
 	url <- read_html(website)
 	annual_table <- url %>% 
  			html_nodes("table") %>%
- 			html_table()  #str(whole_table) turns out to be a list
+ 			html_table()  # result is a list
   annual_table <- do.call(cbind,unlist(annual_table, recursive = FALSE))
  }
 
-# Test that the function works
+# Test that the function works on year 2018
 
-table2018 <- scrape_police_death("https://killedbypolice.net/kbp2018")
-
-
-# Now write a loop to apply it to sequential years from 2018 on
-
+table2018 <- scrape_police_kill("https://killedbypolice.net/kbp2018")
+table2018 %>% 
+	head()
+```
+Next, we write a loop to apply the `scrape_police_kill()` function to sequential years from 2013 on:
+```{r loop}
 mastertable=NULL  # we need to create an empty container for results
 
 for (year in 2013:2020){  # here we create a loop to iterate over the years
 	print(year)
-	url <- "https://killedbypolice.net/kbp"
-	website <- paste0(url,year)  # here we bind the year to the website
-	annual_table <- scrape_police_death(website) # here we apply the function
-	mastertable <- rbind(mastertable, annual_table) # we add the results from the given year to our master dataset
+	url <- "https://killedbypolice.net/kbp"   # the annual URLs end with "kbp2017" ,etc.
+	website <- paste0(url,year)  # here we bind the year to the website to form the URL
+	annual_table <- scrape_police_kill(website) # here we apply the function
+	mastertable <- rbind(mastertable, annual_table) # we add the scraped results from the given year to our master dataset
 	}
 head(mastertable,2)
 tail(mastertable)
 ```
+Well done! You have scraped some 7 years of data from an online database. But sadly, data never comes in analysis-ready format. It needs some additional tender loving care.
 
-The dataset is currently a matrix, which is not super convenient, so let's cast it to tibble and then clean it up
+## Cleaning scraped data
+
+What kind of structure is the resulting `mastertable`? 
+
+Is the `Date` column data formatted consistently? What is the `*` column? 
+How are missing data represented?
+
+The dataset is currently a character matrix, which is not super convenient. Let's cast it to tibble so we can clean it up
 
 ```{r}
 mastertable <- as_tibble(mastertable)
+str(mastertable)
 ```
 
 
-## Revert Age from factor and label Method column
+### Make Age column numeric and relabel the '*' column to Method
 
-
-```{r}
+```{r wrangle columns}
 data <- mastertable %>% 
 	mutate(Age = as.numeric(Age)) %>% 
-	rename(Method="*") 
+	rename(Method = "*") 
 ```
+You will get some coercion in the Age column as missing values are converted to NAs.
 
-## Cleanup the dates with lubridate package and grepl()
+## Cleanup the dates with `lubridate` package and `grepl()`
 
-First, lets look how well structured our Date column is
+Date column datatype is character and needs to be a date. But first, lets look how consistent the Date column values really are.
 
-```{r}
+```{r dates}
 mastertable$Date[c(70:80, 160:170)]
+tail(unique(mastertable$Date))
 ```
-Clearly there are inter-annual differences in how the date was formatted.
+Clearly there are inter-annual differences in how the date was formatted. The format is MM/DD/YYYY in the early years, switching to ISO-compliant format YYYY-MM-DD from 2015 on.  These two types of formatting appear internally consistent. `Lubridate` library and `grepl()` will help with the cleaning here.
 
-```{r}
+```{r cleandates}
 library(lubridate)
 
 data <- data %>% 
 	mutate(Date =
 			case_when(
-				grepl("201[34]",Date) ~ mdy(Date),
+				grepl("201[34]",Date) ~ mdy(Date),  
+				# convert dates that contain 2013 or 2014 into mdy format 
 				!grepl("201[34]",Date)~ ymd(Date)))
-				
+				# convert all other dates ymd format
+
 data <- data %>% 
-	mutate(Year = year(Date))
+	mutate(Year = year(Date))  # I am creating a new column Year from the Date for later plots
 
 tail(data$Year)
 class(data$Date)
 length(which(is.na(data$Date)))
 ```
+### Write result to file
 
-
-Now that the data looks half decent, we can export it to a file
-```{r}
-write.csv(data,"data/policekillings.csv")
+Now that the data looks half decent, we can export it to a file. 
+```{r writetocsv}
+write.csv(data,"data/policekillings202010.csv")
 ```
 
 
 ## Analyze!
 
 The most common age to be killed by police is in the late twenties and early thirties, and this has not changed much over time.
-```{r}
+```{r here comes the plot!}
 library(ggplot2)
 library(ggridges)
 
@@ -229,7 +264,7 @@ data %>%
 In 2016, the state with the largest number of people killed by police was California.
 
 
-```{r}
+```{r map 2016}
 #install.packages(c("statebins", "viridis"))
 library(statebins) # using GitHub version
 library(viridis)
@@ -249,7 +284,7 @@ state_populations <-
   left_join(state_abb)
 
 # compute deaths by state and as deaths per 1000 people in each state
-by_state <- data %>% 
+by_state16 <- data %>% 
   filter(Year == 2016) %>% 
   group_by(State) %>% 
   tally() %>% 
@@ -259,21 +294,21 @@ by_state <- data %>%
   mutate(per_n_people = (n / `2016`) * 1000000)
 
 # plot 'statebin' style map
-ggplot(by_state, 
+ggplot(by_state16, 
        aes(state = state_name, 
            fill = n)) +
   geom_statebins() +
   coord_equal() +
   scale_fill_viridis() +
   theme_statebins() +
-  labs(title = "Total number of people killed by police in each state in 2016") +
+  labs(title = "Total number of people killed by police \nin each state in 2016") +
   theme(legend.title=element_blank()) 
 ```
 
 
-The difference between 2016 and 2019 is hardly visible, with exception of Texas. Downloaded on 20 July from https://www2.census.gov/programs-surveys/popest/tables/2010-2019/state/asrh/
+The difference between 2016 and 2019 is hardly visible, with the exception of Texas. I downloaded this census on 20 July from https://www2.census.gov/programs-surveys/popest/tables/2010-2019/state/asrh/
 
-```{r}
+```{r map 2019}
 state_population19 <- readr::read_csv("data-raw/sc-est2019-alldata5.csv")
 
 # clean it a little
@@ -285,8 +320,6 @@ state_pop17_19 <- state_population19 %>%
 state_pop17_19 %>% 
 	select(state_name, pop2017) %>% 
 	glimpse()
-
-
 
 # compute deaths by state and as deaths per 1000 people in each state
 by_state19 <- data %>% 
@@ -306,15 +339,15 @@ ggplot(by_state19,
   coord_equal() +
   scale_fill_viridis() +
   theme_statebins() +
-  labs(title = "Total number of people killed by police in each state in 2019") +
+  labs(title = "Total number of people killed by police \nin each state in 2019") +
   theme(legend.title=element_blank()) 
 ```
-```
 
-Lets consider the differences in the number of people in each state: in 2016, New Mexico and Alaska have the highest proportions of people killed by police.  
 
-```{r}
-ggplot(by_state, 
+Let's now divide the totals by the number of people in each state: in 2016, New Mexico and Alaska have the highest proportions of people killed by police.  
+
+```{r ratios by state2016}
+ggplot(by_state16, 
        aes(state = state_name, 
            fill = per_n_people)) +
   geom_statebins() +
@@ -325,9 +358,9 @@ ggplot(by_state,
   theme(legend.title=element_blank()) 
 ```
 
-in 2019 the primacy still goes to Alaska, but NM, OK and West Virginia follow in tight succession (while Texas stands at 1 per 100,000)
+In 2019 the primacy still goes to least populous state of Alaska, but New Mexico, Oklahoma and West Virginia follow in tight succession (while Texas stands at 1 per 100,000)
 
-```{r}
+```{r ratios by state2019}
 ggplot(by_state19, 
        aes(state = state_name, 
            fill = per_n_people)) +
