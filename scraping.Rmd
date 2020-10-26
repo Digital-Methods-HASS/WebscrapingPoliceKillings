@@ -22,7 +22,7 @@ Great guidelines to finding the right tags are in [rvest tutorial on Youtube](ht
 
 
 # Solution
-First, load a handful of classic R packages:
+First, install a handful of classic R packages and load their libraries:
 
 - `rvest` for web-scraping
 - `dplyr` for data-wrangling
@@ -192,7 +192,9 @@ write.csv(data,"data/policekillings202010.csv")
 
 ## Analyze!
 
-The most common age to be killed by police is in the late twenties and early thirties, and this has not changed much over time.
+The most common age to be killed by police is in the late twenties and early thirties, and this has not changed much over time. 
+You will need `ggridges` and `statebin` packages here
+
 ```{r here comes the plot!}
 library(ggplot2)
 library(ggridges)
