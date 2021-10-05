@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Goal
-I want to be able to analyse the data on police shootings from 2013-2020 (july 2020) that are nicely collated on summarised on https://killedbypolice.net/.
+I want to be able to analyse the data on police shootings from 2013-2020 (july 2020) that were through 2020 nicely collated on summarised on https://killedbypolice.net/kbp2020. That domain, however, no longer exists - or rather - has been rerouted to https://robarguns.com/kbp2020 and so we will be using the *archived version* of the site at http://web.archive.org/web/20200502072010/https://killedbypolice.net/kbp2020/. The archived version still contains variables such as `Race` and `Method` which are missing from the most recent variant at .
 
 # Challenge
 The data resides in a HTML table that has notoriously messy headers and tags. There is one table for each individual year. Look and weep:
@@ -43,15 +43,15 @@ library(janitor)
 ## Scrape the data
 
 Next, learn how scrape the content of the website and extract the HTML table:
-```{r}
-url <- "https://killedbypolice.net/kbp2020"
+```{r url}
+url <- "http://web.archive.org/web/20200502072010/https://killedbypolice.net/kbp2020"
 # scrape the website
 url_html <- read_html(url)
 ```
 
 Option 1: you can extract the individual rows from the HTML table by using the tag <tr> as argument in the html_nodes() function. BUT this makes each row into an element in a character vector, which would require extra cleaning, specifically splitting by newline \n.
 
-```{r , option1, eval=FALSE}
+```{r scrape-rows}
 whole_table <- url_html %>% 
  html_nodes("tr") %>%
  html_text(trim = FALSE) 
@@ -60,7 +60,7 @@ head(whole_table)
 
 Option 2: you extract individual cells from the HTML table by using the tag <td> as an argument in the html_nodes() function.  BUT this creates a character element out of each table cell, which would require extra wrangling; specifically concatenating by timestamp...
 
-```{r, option2}
+```{r scrape-cells}
 whole_table <- url_html %>% 
  html_nodes("td") %>%
  html_text(trim = FALSE) 
@@ -70,17 +70,17 @@ head(whole_table)
 
 Option 3 is the winner, at least for me. It let's us extract the whole HTML table through the <table> tag. Well, to be precise it loads the html table into a list not a  dataframe, but we can unlist the resulting list and coerce it into a dataframe, and that's less work than options 1 and 2 above, so vaersgo!
 
-```{r, option3}
+```{r scrape-table}
 whole_table <- url_html %>% 
  html_nodes("table") %>%
  html_table()  #str(whole_table) turns out to be a list
-
+whole_table
 ```
 
 If you run a `head()` on the resulting `whole_table`, you will see that it is a list with unnamed elements marked by numbers in double brackets, such as [[1]]. 
 What is a list? A table-like looking structure that needs one more transformation (in this case, unlisting) before it becomes a useful dataframe. 
 
-```{r htmltodf}
+```{r html-to-df}
 new_table <- do.call(cbind,unlist(whole_table, recursive = FALSE)) 
 head(new_table) # ok, looks good, too bad it took 2 hours
 ```
@@ -99,7 +99,7 @@ Now, lets combine the above steps into a single function that we repeat/loop in 
 
 First, we create a single function to scrape a table from one annual page
 
-```{r scrape function}
+```{r scrape-function}
 scrape_police_kill <- function(website){
 	url <- read_html(website)
 	annual_table <- url %>% 
@@ -114,6 +114,7 @@ table2018 <- scrape_police_kill("https://killedbypolice.net/kbp2018")
 table2018 %>% 
 	head()
 ```
+
 Next, we write a loop to apply the `scrape_police_kill()` function to sequential years from 2013 on:
 ```{r loop}
 mastertable=NULL  # we need to create an empty container for results
@@ -128,18 +129,21 @@ for (year in 2013:2020){  # here we create a loop to iterate over the years
 head(mastertable,2)
 tail(mastertable)
 ```
-Well done! You have scraped some 7 years of data from an online database. But sadly, data never comes in analysis-ready format. It needs some additional tender loving care.
+Well done! You have scraped some 7 years of data from an online database. But sadly, data never comes in analysis-ready format. It needs some additional TLC (tenderloving care).
 
 ## Cleaning scraped data
 
-What kind of structure is the resulting `mastertable`? 
+Now that you have some data, you need to check whether it is complete and consistent!
+Ask some questions about and of it,e.g.:
 
-Is the `Date` column data formatted consistently? What is the `*` column? 
+- What kind of structure is the resulting `mastertable`? 
+
+- Is the `Date` column data formatted consistently? What is the `*` column? 
 How are missing data represented?
 
 The dataset is currently a character matrix, which is not super convenient. Let's cast it to tibble so we can clean it up
 
-```{r}
+```{r clean-data}
 mastertable <- as_tibble(mastertable)
 str(mastertable)
 ```
@@ -147,9 +151,9 @@ str(mastertable)
 
 ### Make Age column numeric and relabel the '*' column to Method
 
-```{r wrangle columns}
+```{r wrangle-columns}
 data <- mastertable %>% 
-	mutate(Age = as.numeric(Age)) %>% 
+	mutate(Age = as.numeric(Age)) # %>% 
 	rename(Method = "*") 
 ```
 You will get some coercion in the Age column as missing values are converted to NAs.
@@ -158,25 +162,28 @@ You will get some coercion in the Age column as missing values are converted to 
 
 Date column datatype is character and needs to be a date. But first, lets look how consistent the Date column values really are.
 
-```{r dates}
-mastertable$Date[c(70:80, 160:170)]
+```{r check-dates}
+mastertable$Date[c(30:40, 70:80)]
 tail(unique(mastertable$Date))
 ```
-Clearly there are inter-annual differences in how the date was formatted. The format is MM/DD/YYYY in the early years, switching to ISO-compliant format YYYY-MM-DD from 2015 on.  These two types of formatting appear internally consistent. `Lubridate` library and `grepl()` will help with the cleaning here.
+Check for inter-annual differences in how the date was formatted. 
+In 2020, the format is MM/DD/YYYY in 2013-2014, during the early years of recording , switching to ISO-compliant format YYYY-MM-DD from 2015 on.  These two types of formatting are internally consistent and need to be ironed out if they persist. `Lubridate` library and `grepl()` can help with the cleaning here.
 
-```{r cleandates}
+```{r clean-dates, eval = FALSE}
 library(lubridate)
 
-data <- data %>% 
-	mutate(Date =
-			case_when(
-				grepl("201[34]",Date) ~ mdy(Date),  
-				# convert dates that contain 2013 or 2014 into mdy format 
-				!grepl("201[34]",Date)~ ymd(Date)))
-				# convert all other dates ymd format
+# Adapt this function to any inconsistent dates you discover
+# data <- data %>% 
+# 	mutate(Date =
+# 			case_when(
+# 				grepl("201[34]",Date) ~ mdy(Date),  
+# 				# convert dates that contain 2013 or 2014 into mdy format 
+# 				!grepl("201[34]",Date)~ ymd(Date)))
+# 				# convert all other dates ymd format
 
+# Create a new column called "Year" from the Date for plotting
 data <- data %>% 
-	mutate(Year = year(Date))  # I am creating a new column Year from the Date for later plots
+	mutate(Year = year(Date))  
 
 tail(data$Year)
 class(data$Date)
@@ -185,17 +192,17 @@ length(which(is.na(data$Date)))
 ### Write result to file
 
 Now that the data looks half decent, we can export it to a file. 
-```{r writetocsv}
-write.csv(data,"data/policekillings202010.csv")
+```{r write-to-csv}
+# write.csv(data,"data/policekillings202010.csv")
 ```
 
 
-## Analyze!
+## Analyze Age!
 
 The most common age to be killed by police is in the late twenties and early thirties, and this has not changed much over time. 
 You will need `ggridges` and `statebin` packages here
 
-```{r here comes the plot!}
+```{r plot-age}
 library(ggplot2)
 library(ggridges)
 
@@ -218,10 +225,12 @@ data %>%
 
 We can see, however, that with time the age is centering more around 30 rather than 20. 
 
-
+### Race
 Of the three ethnic groups that make up most of the deaths, Black and Latino people tend to be younger than White people when they are killed by police. 
 
-```{r}
+```{r plot-race}
+library(tidyverse)
+data <- read_csv("data/policekillings202010.csv")
 data %>% 
   filter(Race %in% c("B", "W", "L")) %>% 
   filter(!is.na(Year)) %>% 
@@ -238,9 +247,10 @@ data %>%
   theme(axis.title = element_text(size = 14))
 ```
 
-By far the most common way that people are killed by police is with a gun. Deaths by vehicle involve women more often than men. 
 
-```{r}
+## Method 
+By far the most common way that people are killed by police is with a gun. Deaths by vehicle involve women more often than men. Other methods are less common, and frankly, I do not know what the acronyms stand for (R, T, U..) 
+```{r plot-method}
 data %>% 
   filter(!is.na(Year)) %>% 
   filter(Method != "NA") %>% 
