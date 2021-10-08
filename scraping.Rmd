@@ -1,5 +1,5 @@
 ---
-title: "Police killing data scraping"
+title: "Scraping police-killing data with R"
 author: "Adela Sobotkova"
 date: "20 July 2020, updated `r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
@@ -10,7 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Goal
-I want to be able to analyse the data on police shootings from 2013-2020 (july 2020) that were through 2020 nicely collated on summarised on https://killedbypolice.net/kbp2020. That domain, however, no longer exists - or rather - has been rerouted to https://robarguns.com/kbp2020 and so we will be using the *archived version* of the site at http://web.archive.org/web/20200502072010/https://killedbypolice.net/kbp2020/. The archived version still contains variables such as `Race` and `Method` which are missing from the most recent variant at .
+I want to be able to analyse the data on police shootings from 2013-2020 (july 2020) that were through 2020 nicely collated on summarised on https://killedbypolice.net/kbp2020. That domain, however, no longer exists - or rather - has been rerouted to https://robarguns.com/kbp2020 and so we will be using the *archived version* of the site at http://web.archive.org/web/20200502072010/https://killedbypolice.net/kbp2020/. Check it out! Can you spot *the differences* between the current and archived tables?  The archived version is a bit messier through time (dates are not standardized in the early years of collection), but it contains additional variables such as `Race` and `Method` which are missing from the most recent source.
+You are welcome to scrape the current source, but if you want to visualise results by Race or Method of killing, you will also need to scrape the archival site.
 
 # Challenge
 The data resides in a HTML table that has notoriously messy headers and tags. There is one table for each individual year. Look and weep:
@@ -31,7 +32,7 @@ First, install a handful of classic R packages and load their libraries:
 - `janitor` for clean headers that your OCD will love you for
 
 
-```{r libraries}
+```{r libraries, warning=FALSE, message=FALSE}
 library(rvest)
 library(dplyr)
 library(tidyr)
@@ -74,7 +75,7 @@ Option 3 is the winner, at least for me. It let's us extract the whole HTML tabl
 whole_table <- url_html %>% 
  html_nodes("table") %>%
  html_table()  #str(whole_table) turns out to be a list
-whole_table
+#head(whole_table)
 ```
 
 If you run a `head()` on the resulting `whole_table`, you will see that it is a list with unnamed elements marked by numbers in double brackets, such as [[1]]. 
@@ -121,7 +122,7 @@ mastertable=NULL  # we need to create an empty container for results
 
 for (year in 2013:2020){  # here we create a loop to iterate over the years
 	print(year)
-	url <- "https://killedbypolice.net/kbp"   # the annual URLs end with "kbp2017" ,etc.
+	url <- "http://web.archive.org/web/20200502072010/https://killedbypolice.net/kbp"   # the annual URLs end with "kbp2017" ,etc., so make sure to strip the year so it can be replaced
 	website <- paste0(url,year)  # here we bind the year to the website to form the URL
 	annual_table <- scrape_police_kill(website) # here we apply the function
 	mastertable <- rbind(mastertable, annual_table) # we add the scraped results from the given year to our master dataset
@@ -151,9 +152,12 @@ str(mastertable)
 
 ### Make Age column numeric and relabel the '*' column to Method
 
-```{r wrangle-columns}
+Most of the columns are fine containing characters, but Age should be a number and `*` needs renaming.
+
+```{r wrangle-columns, message = FALSE, warning=FALSE}
+library(tidyverse)
 data <- mastertable %>% 
-	mutate(Age = as.numeric(Age)) # %>% 
+	mutate(Age = as.numeric(Age))  %>% 
 	rename(Method = "*") 
 ```
 You will get some coercion in the Age column as missing values are converted to NAs.
@@ -169,31 +173,35 @@ tail(unique(mastertable$Date))
 Check for inter-annual differences in how the date was formatted. 
 In 2020, the format is MM/DD/YYYY in 2013-2014, during the early years of recording , switching to ISO-compliant format YYYY-MM-DD from 2015 on.  These two types of formatting are internally consistent and need to be ironed out if they persist. `Lubridate` library and `grepl()` can help with the cleaning here.
 
-```{r clean-dates, eval = FALSE}
+```{r clean-dates, warning = FALSE}
 library(lubridate)
 
-# Adapt this function to any inconsistent dates you discover
-# data <- data %>% 
-# 	mutate(Date =
-# 			case_when(
-# 				grepl("201[34]",Date) ~ mdy(Date),  
-# 				# convert dates that contain 2013 or 2014 into mdy format 
-# 				!grepl("201[34]",Date)~ ymd(Date)))
-# 				# convert all other dates ymd format
+# Adapt this pipeline to any other inconsistent dates you discover
+data <- data %>%
+	mutate(Date =
+			case_when(
+				grepl("201[34]", Date) ~ mdy(Date),
+				# convert dates that contain 2013 or 2014 into mdy format
+				!grepl("201[34]",Date) ~ ymd(Date)),
+					Year = year(Date))
+				# convert all other dates ymd format
 
 # Create a new column called "Year" from the Date for plotting
-data <- data %>% 
-	mutate(Year = year(Date))  
+# data <- data %>% 
+# 	mutate(Year = year(Date))  
 
 tail(data$Year)
 class(data$Date)
+class(data$Year)
 length(which(is.na(data$Date)))
+length(which(is.na(data$Year)))
+
 ```
 ### Write result to file
 
 Now that the data looks half decent, we can export it to a file. 
 ```{r write-to-csv}
-# write.csv(data,"data/policekillings202010.csv")
+write_csv(data,"data/policekillings202110.csv")
 ```
 
 
@@ -206,7 +214,7 @@ You will need `ggridges` and `statebin` packages here
 library(ggplot2)
 library(ggridges)
 
-
+data <- read_csv("data/policekillings202110.csv")
 data %>% 
   filter(Gender %in% c("F", "M", "T")) %>% 
   filter(!is.na(Year)) %>% 
@@ -230,7 +238,7 @@ Of the three ethnic groups that make up most of the deaths, Black and Latino peo
 
 ```{r plot-race}
 library(tidyverse)
-data <- read_csv("data/policekillings202010.csv")
+
 data %>% 
   filter(Race %in% c("B", "W", "L")) %>% 
   filter(!is.na(Year)) %>% 
@@ -384,4 +392,4 @@ ggplot(by_state19,
   theme(legend.title=element_blank()) 
 ```
 
-
+Now it is your turn. Apply the webscraping part of this script to a subject of your own! (But consider what you can use the output for first :)
