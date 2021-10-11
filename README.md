@@ -1,16 +1,3 @@
----
-title: "README_Adela"
-author: "Adela Sobotkova"
-date: "30/07/2020, updated `r format(Sys.time(), '%d %B, %Y')`"
-output: 
-  md_document:
-    variant: markdown_github
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Webscraping and analysis of homicide and police killing data
 
 The goal of killedbypolice is to make readily available the data collected by the archvied version <http://killedbypolice.net/> for exploration, visualisation, and analysis.
