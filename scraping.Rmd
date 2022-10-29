@@ -69,24 +69,27 @@ head(whole_table)
 ```
 
 
-Option 3 is the winner, at least for me. It let's us extract the whole HTML table through the <table> tag. Well, to be precise it loads the html table into a list not a  dataframe, but we can unlist the resulting list and coerce it into a dataframe, and that's less work than options 1 and 2 above, so vaersgo!
+Option 3 is the winner, at least for me. It let's us extract the whole HTML table through the <table> tag. Well, to be precise it loads the html table into a list not a dataframe, but we can unlist the resulting list and coerce it into a dataframe, and that's less work than options 1 and 2 above, so vaersgo!
 
 ```{r scrape-table}
 whole_table <- url_html %>% 
  html_nodes("table") %>%
  html_table()  #str(whole_table) turns out to be a list
-#head(whole_table)
+str(whole_table)
+whole_table[[1]]
+whole_table
 ```
 
-If you run a `head()` on the resulting `whole_table`, you will see that it is a list with unnamed elements marked by numbers in double brackets, such as [[1]]. 
+If you run a `str()` on the resulting `whole_table`, you will see that it is a list of 1 tibble with unnamed elements marked by numbers in double brackets, such as [[1]]. 
 What is a list? A table-like looking structure that needs one more transformation (in this case, unlisting) before it becomes a useful dataframe. 
 
 ```{r html-to-df}
 new_table <- do.call(cbind,unlist(whole_table, recursive = FALSE)) 
-head(new_table) # ok, looks good, too bad it took 2 hours
+head(new_table)
 ```
 The line above takes the downloaded html table, unlists it and and then combine the individual elements as columns. 
-It may look ugly, but that's what happens when there is a structure you are not used to routinely handle. It took me 2 hours to figure out how to best handle the list.
+It may look ugly, but that's what happens when there is a structure you are not used to routinely handle. It took me 2 hours at the first time to figure out how to best handle the list.
+In 2022, you may not even need to unlist the rvest table as it will be a list containing a single tibble - you are the judge of that. It will truly matter only once we start to automate and repeat this step for every following/preceding year. 
 
 If you want to read more about handling lists, here are two good stackoverflow threads:  https://stackoverflow.com/questions/16300344/how-to-flatten-a-list-of-lists
 https://stackoverflow.com/questions/4227223/convert-a-list-to-a-data-frame
@@ -118,19 +121,21 @@ table2018 %>%
 
 Next, we write a loop to apply the `scrape_police_kill()` function to sequential years from 2013 on:
 ```{r loop}
-mastertable=NULL  # we need to create an empty container for results
+# Create a container for the results
+mastertable=NULL  # we need to create an empty container
 
-for (year in 2013:2020){  # here we create a loop to iterate over the years
-	print(year)
+# Loop over the years to iterate the scraping
+for (year in 2013:2020){  
+	print(year) # let's check which year we are in
 	url <- "http://web.archive.org/web/20200502072010/https://killedbypolice.net/kbp"   # the annual URLs end with "kbp2017" ,etc., so make sure to strip the year so it can be replaced
 	website <- paste0(url,year)  # here we bind the year to the website to form the URL
-	annual_table <- scrape_police_kill(website) # here we apply the function
+	annual_table <- scrape_police_kill(website) # here we apply the scraping function
 	mastertable <- rbind(mastertable, annual_table) # we add the scraped results from the given year to our master dataset
 	}
 head(mastertable,2)
 tail(mastertable)
 ```
-Well done! You have scraped some 7 years of data from an online database. But sadly, data never comes in analysis-ready format. It needs some additional TLC (tenderloving care).
+Well done! You have scraped some 7 years of data from an online database. But sadly, data never comes in analysis-ready format. It needs some additional TLC (tender, loving care).
 
 ## Cleaning scraped data
 
@@ -139,8 +144,9 @@ Ask some questions about and of it,e.g.:
 
 - What kind of structure is the resulting `mastertable`? 
 
-- Is the `Date` column data formatted consistently? What is the `*` column? 
-How are missing data represented?
+- Is the `Date` column data formatted consistently? 
+- What is the `*` column? 
+- How are missing data represented?
 
 The dataset is currently a character matrix, which is not super convenient. Let's cast it to tibble so we can clean it up
 
@@ -150,9 +156,9 @@ str(mastertable)
 ```
 
 
-### Make Age column numeric and relabel the '*' column to Method
+### Make `Age` column numeric and relabel the '*' column to `Method`
 
-Most of the columns are fine containing characters, but Age should be a number and `*` needs renaming.
+Most of the columns are fine containing characters, but `Age` should be a number and `*` needs renaming.
 
 ```{r wrangle-columns, message = FALSE, warning=FALSE}
 library(tidyverse)
@@ -171,7 +177,7 @@ mastertable$Date[c(30:40, 70:80)]
 tail(unique(mastertable$Date))
 ```
 Check for inter-annual differences in how the date was formatted. 
-In 2020, the format is MM/DD/YYYY in 2013-2014, during the early years of recording , switching to ISO-compliant format YYYY-MM-DD from 2015 on.  These two types of formatting are internally consistent and need to be ironed out if they persist. `Lubridate` library and `grepl()` can help with the cleaning here.
+The Date format is MM/DD/YYYY in 2013-2014, during the early years of recording , switching to ISO-compliant format YYYY-MM-DD from 2015 on.  These two types of formatting need to be streamlined. `Lubridate` library and `grepl()` can help with the cleaning here.
 
 ```{r clean-dates, warning = FALSE}
 library(lubridate)
@@ -201,7 +207,7 @@ length(which(is.na(data$Year)))
 
 Now that the data looks half decent, we can export it to a file. 
 ```{r write-to-csv}
-write_csv(data,"data/policekillings202110.csv")
+write_csv(data,"data/policekillings202210.csv")
 ```
 
 
@@ -214,7 +220,7 @@ You will need `ggridges` and `statebin` packages here
 library(ggplot2)
 library(ggridges)
 
-data <- read_csv("data/policekillings202110.csv")
+data <- read_csv("data/policekillings202210.csv")
 data %>% 
   filter(Gender %in% c("F", "M", "T")) %>% 
   filter(!is.na(Year)) %>% 
@@ -231,7 +237,7 @@ data %>%
   theme(axis.title = element_text(size = 14))
 ```
 
-We can see, however, that with time the age is centering more around 30 rather than 20. 
+We can see, however, that with time the age is centering more around 30 rather than 20. What is happening in 2014 with women around 80 years?? 
 
 ### Race
 Of the three ethnic groups that make up most of the deaths, Black and Latino people tend to be younger than White people when they are killed by police. 
